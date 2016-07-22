@@ -52,18 +52,23 @@
         </div>
         
 		<div class="ui container" style="width:50%;">
-            <form class="ui fluid form" onsubmit="return validateAndSubmit()" method="POST">
+            <form class="ui fluid form" 
+                  onsubmit="return validateAndSubmit()" 
+                  action="http://formspree.io/icslabcrew@gmail.com"
+                  method="post">
 
+                <input type="hidden" name="_subject" value="New request to hire icslab team!" />
+                
 <!--                NAME-->
                 <div class="required inline field">
-                    <input type="text" name="your-name" placeholder="Name" id="name">
+                    <input type="text" name="name" placeholder="Name" id="name">
                     <div class="ui left pointing red basic label" id="name_error" style="visibility:hidden;">
                     </div>
                 </div>
 
 <!--                EMAIL -->
                 <div class="required inline field">
-                    <input type="text" name="email" placeholder="Email" id="email">
+                    <input type="text" name="_replyto" placeholder="Email" id="email">
                     <div class="ui left pointing red basic label" id="email_error" style="visibility:hidden;">
                     </div>
                 </div>
@@ -87,7 +92,8 @@
                     </div>
                 </div>
 
-                <button class="ui submit inverted teal button" type="submit" >Submit</button> 
+                <input class="ui submit inverted teal button" type="submit" value="Send">
+<!--                <button class="ui submit inverted teal button" type="submit" value="Send">Submit</button> -->
 
         </form>
 		</div>
