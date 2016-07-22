@@ -1,0 +1,382 @@
+<!--
+   header.html
+   
+   Copyright 2016 alex <alex@goophy>
+   
+   This program is free software; you can redistribute it and/or modify
+   it under the terms of the GNU General Public License as published by
+   the Free Software Foundation; either version 2 of the License, or
+   (at your option) any later version.
+   
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU General Public License for more details.
+   
+   You should have received a copy of the GNU General Public License
+   along with this program; if not, write to the Free Software
+   Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+   MA 02110-1301, USA.
+   
+   
+-->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+  <!-- Standard Meta -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <!-- Site Properties -->
+  <title>Header</title>
+  <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.css">
+  <link rel="stylesheet" type="text/css" href="semantic/dist/components/reset.css">
+  <link rel="stylesheet" type="text/css" href="semantic/dist/components/site.css">
+
+  <link rel="stylesheet" type="text/css" href="semantic/dist/components/container.css">
+  <link rel="stylesheet" type="text/css" href="semantic/dist/components/grid.css">
+  <link rel="stylesheet" type="text/css" href="semantic/dist/components/header.css">
+  <link rel="stylesheet" type="text/css" href="semantic/dist/components/image.css">
+  <link rel="stylesheet" type="text/css" href="semantic/dist/components/menu.css">
+
+  <link rel="stylesheet" type="text/css" href="semantic/dist/components/divider.css">
+  <link rel="stylesheet" type="text/css" href="semantic/dist/components/dropdown.css">
+  <link rel="stylesheet" type="text/css" href="semantic/dist/components/segment.css">
+  <link rel="stylesheet" type="text/css" href="semantic/dist/components/button.css">
+  <link rel="stylesheet" type="text/css" href="semantic/dist/components/list.css">
+  <link rel="stylesheet" type="text/css" href="semantic/dist/components/icon.css">
+  <link rel="stylesheet" type="text/css" href="semantic/dist/components/sidebar.css">
+  <link rel="stylesheet" type="text/css" href="semantic/dist/components/transition.css">
+
+  <style type="text/css">
+
+    .hidden.menu {
+      display: none;
+    }
+
+    .masthead.segment {
+      min-height: 700px;
+      padding: 1em 0em;
+    }
+    .masthead .logo.item img {
+      margin-right: 1em;
+    }
+    .masthead .ui.menu .ui.button {
+      margin-left: 0.5em;
+    }
+    .masthead h1.ui.header {
+      margin-top: 3em;
+      margin-bottom: 0em;
+      font-size: 4em;
+      font-weight: normal;
+    }
+    .masthead h2 {
+      font-size: 1.7em;
+      font-weight: normal;
+    }
+
+	section .ui.text.container h1 {
+      font-size: 2.7em;
+      font-weight: normal;
+      color: #000000;
+    }
+    
+    section .inverted .ui.text.container h1 {
+      font-size: 2.7em;
+      font-weight: normal;
+      color: #ffffff;
+    }
+    
+    
+	.ui.card.lilly {
+		width:calc(100% - 2em);
+		box-shadow: 0px 0px 0px 0px #D4D4D5, 0px 0px 0px 0px #D4D4D5;
+	}
+    
+    .ui.vertical.stripe {
+      padding: 8em 0em;
+    }
+    .ui.vertical.stripe h3 {
+      font-size: 2em;
+    }
+    .ui.vertical.stripe .button + h3,
+    .ui.vertical.stripe p + h3 {
+      margin-top: 3em;
+    }
+    .ui.vertical.stripe .floated.image {
+      clear: both;
+    }
+    .ui.vertical.stripe p {
+      font-size: 1.33em;
+    }
+    .ui.vertical.stripe .horizontal.divider {
+      margin: 3em 0em;
+    }
+
+    .quote.stripe.segment {
+      padding: 0em;
+    }
+    .quote.stripe.segment .grid .column {
+      padding-top: 5em;
+      padding-bottom: 5em;
+    }
+
+    .footer.segment {
+      padding: 5em 0em;
+    }
+
+    .secondary.pointing.menu .toc.item {
+      display: none;
+    }
+
+    @media only screen and (max-width: 700px) {
+      .ui.fixed.menu {
+        display: none !important;
+      }
+      .secondary.pointing.menu .item,
+      .secondary.pointing.menu .menu {
+        display: none;
+      }
+      .secondary.pointing.menu .toc.item {
+        display: block;
+      }
+      .masthead.segment {
+        min-height: 350px;
+      }
+      .masthead h1.ui.header {
+        font-size: 2em;
+        margin-top: 1.5em;
+      }
+      .masthead h2 {
+        margin-top: 0.5em;
+        font-size: 1.5em;
+      }
+      
+      section .ui.text.container h1 {
+      font-size: 1.7em;
+      font-weight: normal;
+      color: #000000;
+	  }
+    
+      section .inverted .ui.text.container h2 {
+      font-size: 1.7em;
+      font-weight: normal;
+      color: #ffffff;
+	  }
+	  
+	  .ui.card.lilly {
+		  box-shadow: 0px 0px 0px 0px #D4D4D5, 0px 0px 0px 0px #D4D4D5;
+	  }
+    }
+
+
+  </style>
+
+  <script src="assets/library/jquery.min.js"></script>
+  <script src="semantic/dist/components/visibility.js"></script>
+  <script src="semantic/dist/components/sidebar.js"></script>
+  <script src="semantic/dist/components/transition.js"></script>
+  <script src="assets/library/das-site.js"></script>
+</head>
+<body>
+
+<!-- Following Menu -->
+<nav class="ui large top fixed hidden menu">
+  <div class="ui container">
+	  <div class="right menu">
+		<a href="#ourwork" class="item">Our work</a>
+		<a href="#ourteam" class="item">Our team</a>
+		<a href="hireus.html" class="item">Hire us!</a>
+    </div>
+  </div>
+</nav>
+
+<!-- Sidebar Menu -->
+<nav class="ui vertical inverted sidebar menu">
+  <a href="#ourwork" class="item">Our work</a>
+  <a href="#ourteam" class="item">Our team</a>
+  <a href="hireus.html" class="item">Hire us!</a>
+</nav>
+
+
+<!-- Page Contents -->
+<div class="pusher">        
+  <div class="ui secondary inverted vertical masthead center aligned segment">
+
+    <div class="ui container">
+      <nav class="ui large secondary inverted pointing menu">
+        <a class="toc item">
+          <i class="sidebar icon"></i>
+        </a>
+        <div class="ui huge primary button">Get Started[TODO] <i class="right arrow icon"></i></div>
+        <a class="item">Logo[TODO]</a>
+        <div class="right item">
+        <a href="#ourwork" class="item">Our work</a>
+        <a href="#ourteam" class="item">Our team</a>
+        <button class="ui inverted teal button"
+				onclick="location.href='hireus.html';">
+			Hire us!
+		</button>
+        </div>
+      </nav>
+    </div>
+
+    <div class="ui text container">
+      <h1 class="ui secondary inverted header">
+        Imagine-a-Company [TODO]
+      </h1>
+      <h2>Do whatever you want when you want to. [TODO]</h2>
+    </div>
+
+  </div>
+
+	<section id="ourwork">
+	
+	<div class="ui container">
+        <!--    SECTION TITLE-->
+        <div class="ui center aligned basic segment">
+			<div class="ui text container">
+				<h1>Our Work</h1>
+			</div>
+        </div>
+            
+    
+		<div class="ui secondary vertical center aligned segment">
+	    	<div class="ui grid">
+				<div class="right aligned four wide column">
+					<div class="ui slide masked reveal small bordered image">						
+						<img class="ui small image visible content" src="images/moneyspenk-main.png">
+						<img class="ui small image hidden content" src="images/moneyspenk-spendings.png">				
+					</div>
+			    </div>
+			        
+				<div class="left aligned ten wide column">
+					<div class="ui card lilly">
+						<div class="content">
+							<div class="header">
+								<img class="ui mini image floated left" src="images/moneyspenk-logo.png">
+								<h2>Money Spenk</h2>
+							</div>
+								<div class="meta">
+									<span class="category">Receipt scanner application to monitor your expenses</span>
+								</div>
+								<div class="description">
+									<p>Money Spenk is a fun app for scanning your receipts and thus help you easily monitor your expenses, all within a juicy interface with awesome features.</p>
+								</div>
+							</div>
+						<div class="extra content">
+							
+							<div class="right floated author">
+								
+								<button class="ui facebook icon button"
+	                                    onclick="location.href='https://www.facebook.com/MoneySpenk/';">
+	                                <i class="large facebook icon"></i>
+								</button>
+								<button class="ui primary android icon button"
+	                                    onclick="location.href='https://play.google.com/store/apps/details?id=com.harbinger.expressive.espendingtracker';">
+	                                <i class="large android icon"></i>
+								</button>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+		
+		<div class="ui secondary vertical center aligned segment">
+	    	<div class="ui grid">
+				
+				<div class="right aligned four wide column">
+					<div class="ui slide masked reveal small bordered image">						
+						<img class="ui small image visible content" src="images/piecare-main.png">
+						<div class="ui slide masked reveal small image hidden content">
+							<img class="ui small image visible content" src="images/piecare-register.png">
+							<img class="ui small image hidden content" src="images/piecare-call.png">
+						</div>				
+					</div>
+			    </div>
+			    
+			    <div class="left aligned ten wide column">
+					<div class="ui card lilly">
+						<div class="content">
+							<div class="header">
+								<img class="ui mini image floated left" src="images/piecare-logo-refresh.png">
+								<h2>Pie Care</h2>
+							</div>
+								<div class="meta">
+									<span class="category">E/M-health application</span>
+								</div>
+								<div class="description">
+									<p>Demo of interconnecting technologies to respond to a simple need in e-Health.
+									We've used a WebRTC based API for streaming video and audio signal, apllied some cool strategies and we've researched the tech stack needed for the final result.
+									There are two dedicated app for the patient and the health care taker - we've affectionatelly called them toddler and nanny. All backed by a cool Clojure based server.
+									</p>
+								</div>
+							</div>
+						<div class="extra content">
+							
+							<div class="right floated author">
+								
+								<button class="ui disabled facebook icon button"
+	                                    onclick="location.href='https://www.facebook.com/MoneySpenk/';">
+	                                <i class="large facebook icon"></i>
+								</button>
+								<button class="ui disabled primary android icon button"
+	                                    onclick="location.href='https://play.google.com/store/apps/details?id=com.harbinger.expressive.espendingtracker';">
+	                                <i class="large android icon"></i>
+								</button>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	</section>
+    
+    <section id="ourteam"/>
+        
+
+  <div class="ui inverted vertical footer segment">
+    <div class="ui container">
+      <div class="ui stackable inverted divided equal height stackable grid">
+        <div class="three wide column">
+          <h4 class="ui inverted header">About</h4>
+          <div class="ui inverted link list">
+            <a href="#" class="item">Sitemap</a>
+            <a href="#" class="item">Contact Us</a>
+            <a href="#" class="item">Religious Ceremonies</a>
+            <a href="#" class="item">Gazebo Plans</a>
+          </div>
+        </div>
+        <div class="three wide column">
+          <h4 class="ui inverted header">Services</h4>
+          <div class="ui inverted link list">
+            <a href="#" class="item">Banana Pre-Order</a>
+            <a href="#" class="item">DNA FAQ</a>
+            <a href="#" class="item">How To Access</a>
+            <a href="#" class="item">Favorite X-Men</a>
+          </div>
+        </div>
+        <div class="seven wide column">
+          <h4 class="ui inverted header">Footer Header</h4>
+          <p>Extra space for a call to action inside the footer that could help re-engage users.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+	<script>
+	</script>
+
+</body>
+</html>
+
+BG1: #24123d
+FG1: #d43e57
+FG2: #53e1be

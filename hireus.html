@@ -1,0 +1,190 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+      <!-- Standard Meta -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=4.0, user-scalable=1">
+
+    <!-- Site Properties -->
+  <title>Hire Us!</title>
+  <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.css">
+ 
+  <link rel="stylesheet" type="text/css" href="semantic/dist/components/container.css">
+  <link rel="stylesheet" type="text/css" href="semantic/dist/components/grid.css">
+  <link rel="stylesheet" type="text/css" href="semantic/dist/components/header.css">
+  <link rel="stylesheet" type="text/css" href="semantic/dist/components/image.css">
+ 
+  <link rel="stylesheet" type="text/css" href="semantic/dist/components/divider.css">
+  <link rel="stylesheet" type="text/css" href="semantic/dist/components/segment.css">
+  <link rel="stylesheet" type="text/css" href="semantic/dist/components/button.css">
+  <link rel="stylesheet" type="text/css" href="semantic/dist/components/list.css">
+  <link rel="stylesheet" type="text/css" href="semantic/dist/components/icon.css">
+  <link rel="stylesheet" type="text/css" href="assets/library/das-site.css">
+    
+  <script src="assets/library/jquery.min.js"></script>
+  <script src="semantic/dist/semantic.js"></script>
+ 
+	<style type="text/css">
+		html, body, .segment {
+			height: 100%;
+		}
+		@media only screen and (max-width: 700px) {
+			html,body {
+				height: inherit;
+			}
+			
+			.segment {
+				height: inherit
+				device-height: 100%;
+			}
+		}
+	</style>
+</head>
+
+<body>
+    <div class="ui secondary inverted vertical masthead left aligned fixed segment">
+        <div class="ui text container center aligned">
+            <h2 class="ui inverted header">Hire us</h2>
+            <p></p>
+        </div>
+        
+		<div class="ui container" style="width:50%;">
+            <form class="ui fluid form" onsubmit="return validateAndSubmit()" method="POST">
+
+<!--                NAME-->
+                <div class="required inline field">
+                    <input type="text" name="your-name" placeholder="Name" id="name">
+                    <div class="ui left pointing red basic label" id="name_error" style="visibility:hidden;">
+                    </div>
+                </div>
+
+<!--                EMAIL -->
+                <div class="required inline field">
+                    <input type="text" name="email" placeholder="Email" id="email">
+                    <div class="ui left pointing red basic label" id="email_error" style="visibility:hidden;">
+                    </div>
+                </div>
+
+<!--                PHONE-->
+                <div class="inline field">
+                    <input type="text" name="phone" placeholder="Phone number">
+                </div>
+
+<!--                PROJECT-->
+                <div class="required inline field">
+                    <textarea id="project" name="project" placeholder="Tell us about your project"></textarea>
+                    <div class="ui pointing red basic label" id="project_error" style="visibility:hidden;">
+                    </div>
+                </div>
+
+<!--                BUDGET-->
+                <div class="required inline field">
+                    <input type="text" name="budget" placeholder="Bugdet" id="budget">
+                    <div class="ui left pointing red basic label" id="budget_error" style="visibility:hidden;">
+                    </div>
+                </div>
+
+                <button class="ui submit inverted teal button" type="submit" >Submit</button> 
+
+        </form>
+		</div>
+	</div>
+
+<!-- CONFIRMATION POPUP -->
+<div id="modaldiv" class="ui small modal" style="visibility:hidden;width=50%;height=50%;">
+    <i class="close icon"></i>
+    <div class="header">
+        Your message has been sent!
+    </div>
+    <div class="image content">
+        <div class="small image">
+            <i class="send icon"></i>
+        </div>
+        <div class="description">
+            <p>Thank you for submitting your message. You will receive an answer from us soon!</p>
+        </div>
+    </div>
+    <div class="actions">
+        <div class="ui inverted teal button">
+            <a href="main.html"/>
+            <i class="checkmark icon"></i>
+            OK
+        </div>
+    </div>
+</div>
+<script>
+
+    var validForm = true;
+    var error = "_error";
+       
+    function validateEmailString(email) {
+        var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+        return re.test(email);
+    }
+
+    function validateEmail(field_name, error_text) {
+        var value = document.getElementById(field_name).value;
+        if (!validateEmailString(value)) {
+            validForm = false;
+            showError(field_name, error_text);
+        } else {
+            hideError(field_name);  
+        }
+    }
+    
+    function isEmpty(str) {
+        return (!str || /^\s*$/.test(str)); 
+    }
+    
+    function showError(field_name, error_text) {
+        document.getElementById(field_name + error).innerHTML = error_text;
+        document.getElementById(field_name + error).style.visibility = "visible";
+    }
+    
+    function hideError(field_name) {
+        document.getElementById(field_name + error).style.visibility = "hidden";  
+    }
+    
+    function getValueOrDisplayError(field_name, error_text) {
+        var value = document.getElementById(field_name).value;
+        if (isEmpty(value)) {
+            validForm = false;
+            showError(field_name, error_text);
+        } else {
+            hideError(field_name);  
+        }
+        
+        return value;
+    }
+    
+    function validateAndSubmit() {      
+        validForm = true;
+                    
+        // check against null
+        var name = getValueOrDisplayError("name", "Your name is missing.");
+        var email = getValueOrDisplayError("email", "We need an email to reach you.");
+        if (email) {
+            validateEmail("email", "We need a valid email to reach you.")
+        }
+        var project = getValueOrDisplayError("project", "What are you working on?");
+        var budget = getValueOrDisplayError("budget", "We need to know your budget.");
+                    
+        if (validForm) {
+            $('#modaldiv')
+                .modal({
+                      onApprove: function() {
+                      window.location.href = "main.html";
+                    }})
+                .modal('show');
+        }
+        
+        return validForm;
+    }
+    
+</script>
+    
+</body>
+</html>
