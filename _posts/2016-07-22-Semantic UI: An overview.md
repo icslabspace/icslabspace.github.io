@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Semantic UI: An overview"
+date: 2016-07-22
+---
+
 This a review for [Semantic UI](http://semantic-ui.com/) which was tested by [our team](link site#our team) last month for building a presentation website.
 
 There are many available front-end frameworks like [Bootstrap](http://getbootstrap.com/), [Foundation](http://foundation.zurb.com/), [HTML Kickstart](http://www.99lime.com/elements/) or [Ivory](https://github.com/kanthvallampati/IVORY), but we decided to go with [Semantic UI 2.2]
@@ -11,7 +17,6 @@ The JS library contains a lot of preconfigured UI components: views, elements, i
 
 We need a form with one field which is mandatory to be filled in. Otherwise, a sticky label attached to that textfield will prompt the missing text error. 
 
- {code area} 
   	<form class="ui fluid form" onsubmit="return validateAndSubmit()" method="POST">
 	        <div class="required inline field">
                     <input type="text" name="name" placeholder="Name" id="name">
@@ -21,13 +26,14 @@ We need a form with one field which is mandatory to be filled in. Otherwise, a s
 		...
 		// add validation function
 	</form>
- {add printscreen containing the result}
+
+{add printscreen containing the result}
 
 Available CSS are easy to use because their names are in natural language. For example, if you need a small, circular button containing the facebook icon (which by the way has already the appropriate style in place), you only need to add the specific style class:
  
-	{code area}
  	<button class="ui circular small facebook icon button">
- 	{add printscreen containing the result}
+
+{add printscreen containing the result}
 
 Another useful feature is the ability to use [theming](http://semantic-ui.com/usage/theming.html) to configure some parameters efficiently and consistently across the entire website. Basically, each UI component inherits the style from the theme and the existing pre-defined style classes available in the library (e.g. "UI modal") specify how a component should differ from the default theme. It is not configured from scratch every time. If a completely new layout is required, one can define a particular style class which will override the default style.
 
