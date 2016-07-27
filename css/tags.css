@@ -1,0 +1,92 @@
+
+/*Tags*/
+.tags {
+  list-style: none;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+}
+
+.tags li {
+  float: left;
+}
+
+.tag {
+  font: 15px/1.5 'PT Sans', serif;
+  background: #d43e57;
+  border-radius: 3px 0 0 3px;
+  color: white;
+  display: inline-block;
+  height: 26px;
+  line-height: 26px;
+  padding: 0 20px 0 20px;
+  position: relative;
+  margin: 0 10px 0 0;
+  text-decoration: none;
+  -webkit-transition: color 0.2s;
+/*  border-color: #d43e57;  */
+/*  border-style: solid;*/
+/*  border-width: 1px 1px 1px 1px;  */
+}
+
+a:visited {
+    color: #d43e57;
+}
+
+a:link {
+    color: #d43e57;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.tags a {
+    color: white;
+}
+/*
+
+.tags a:hover {
+    color: white;
+}
+*/
+
+.tag-archive-font {
+  font-size: 13px;
+}
+
+/*
+.tag::before {
+  background: transparent;
+  border-radius: 10px;
+  box-shadow: inset 0 1px rgba(0, 0, 0, 0.25);
+  content: '';
+  height: 6px;
+  left: 10px;
+  position: absolute;
+  width: 6px;
+  top: 10px;
+  color: white;
+}
+*/
+
+.tag::after {
+  background: #fff;
+  border-bottom: 13px solid transparent;
+  border-left: 10px solid #d43e57;
+  border-top: 13px solid transparent;
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.tag:hover {
+  background-color: #d43e57;
+  color: black;
+  text-decoration: none;
+}
+
+.tag:hover::after {
+  border-left-color: #d43e57;
+}

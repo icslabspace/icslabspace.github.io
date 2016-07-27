@@ -1,9 +1,64 @@
 ---
 layout: default
 ---
-<h1>{{ page.title }}</h1>
-<p class="meta">{{ page.date | date_to_string }}</p>
 
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+    
+  <header class="post-header">
+    <section>
+        <div class="ui text container">
+            <h1>{{ page.title }}</h1>
+        </div>
+    </section>
+      
+      <p class="post-meta">
+          <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
+          {% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}
+            
+          <div class="ui tag labels">
+            {% for tag in page.tags %}
+                <a class="ui orange label" href="/tags#{{ tag }}">{{ tag }}</a>
+            {% endfor %}
+          </div>
+      </p>
+  </header>
+    
+
+  <div class="post-content" itemprop="articleBody">
+    {{ content }}
+  </div>  
+
+</article>
+    
 <div class="post">
-  {{ content }}
+      
+<!-- Previous / Next post -->
+  <br>
+  {% if page.previous %}
+    <p style="font-size:90%">      
+        <button class="ui orange basic button" 
+                onclick="location.href='{{ page.previous.url }}';">Previous article</div>
+    </p>
+  {% endif %}
+
+  {% if page.next %}
+    <p style="font-size:90%">
+        <button class="ui orange basic button" 
+                onclick="location.href='{{ page.next.url }}';">Next article</div>
+    </p>
+  {% endif %}
+</div>
+
+<div class="ui grid">
+    <div class="two wide column">
+        <div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button" data-size="large" data-mobile-iframe="true">
+            <a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse">Share</a>
+        </div>
+    </div>
+
+    <div class="two wide column">
+        <div>
+            <a href="https://twitter.com/share" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+    </div>
 </div>
