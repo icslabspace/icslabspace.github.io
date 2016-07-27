@@ -46,12 +46,3 @@ Still, Semantic UI is not very optimized for mobile/different types of browsers.
 For editing the HTML, CSS or JS files, any web editor will do it. We used [Brackets](http://brackets.io/) because it compiles the code in real time and it shows you the errors before running it in a browser. 
 
 To draw a conclusion, Semantic UI is an user friendly framework with lots of online documentation that enables any software engineer to easily develop expressive websites in a short amount of time.
-
-
-<!--
-<meta property="og:url"                content="https://georgi-mania.github.io/programming/2016/07/22/Semantic-UI-An-overview.html" />
-<meta property="og:type"               content="article" />
-<meta property="og:title"              content="Semantic UI: An overview" />
-<meta property="og:description"        content="This a review for Semantic UI which was tested by our team last month for building a presentation website." />
-<meta property="og:image"              content="http://static01.nyt.com/images/2015/02/19/arts/international/19iht-btnumbers19A/19iht-btnumbers19A-facebookJumbo-v2.jpg" />
--->
