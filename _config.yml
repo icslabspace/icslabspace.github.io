@@ -11,8 +11,8 @@ email: crew@icslab.eu
 description: > # this means to ignore newlines until "baseurl:"
     This is the Independent Computer Scientists' Blog. 
     We share technical and science related information. 
-baseurl: "/blog" # the subpath of your site, e.g. /blog
-url: "http://icslab.eu" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://icslab.eu/blog" # the base hostname & protocol for your site
 
 #twitter_username: jekyllrb
 github_username:  icslabspace
