@@ -2,64 +2,64 @@
 layout: default
 ---
 
-<div class="home">
-
-<section>
-
-<!-- This loops through the paginated posts -->
 <div class="ui container">
-  
-    <p></p>
-    {% for post in paginator.posts %}
-    <div class="ui raised segment">
-        
-<!--       post category-->
-       <a class="ui orange ribbon label">{{ post.categories | first }}</a>
-        
-<!--       post title -->
-        <span><h2>{{ post.title }}</h2></span>
-<!--           <a href="{{ post.url }}">{{ post.title }}</a></h2></span>-->
-       
-<!--        post author and date-->
-       <p class="author">
-        <span class="author">Posted by {{ post.author }} on {{ post.date | date: "%b %-d, %Y" }}</span> 
-       </p>
-       
-       <p>{{ post.excerpt }}</p>
-        
-       <a class="ui orange basic button" href="{{ post.url }}">Read more</a>
-
-    </div>
-{% endfor %}    
-</div>
-</section>
-    
-</br>
-<div class="ui divider"></div>
-</br>
-
-<section>
-    <div class="ui container">
+    <section>
+    <!-- This loops through the paginated posts -->
         <div class="ui grid">
-            <div class="four wide column">
-                {% if paginator.previous_page %}
-                    <a href="{{ paginator.previous_page_path }}" class="ui orange basic button">Previous page</a>
-                {% else %} 
-                    <a href="{{ paginator.previous_page_path }}" class="ui orange basic button disabled" >Previous page</a>
-                {% endif %}
-            </div>
+            <p></p>
+            {% assign i = true %}
+
+            {% for post in paginator.posts %}
             
-            <div class="four wide column">
-                {% if paginator.next_page %}
-                    <a href="{{ paginator.next_page_path }}" class="ui orange basic button">Next page</a>
-                {% else %} 
-                    <a href="{{ paginator.next_page_path }}" class="ui orange basic button disabled" >Next page</a>
+            <!-- Create a row for each post-->
+               <div class="row">
+
+                {% if i %}
+                    {% assign i = false %}
+                    <div class="left floated ten wide column">
+                        {% include item-post.html %}
+                    </div>
+
+               {% else %}
+                    {% assign i = trues %}
+                    <div class="right floated ten wide column">
+                        {% include item-post.html %}
+                    </div>
+                
                 {% endif %}
-            </div>
-             
+                </div>
+
+        {% endfor %}    
 
         </div>
-    </div>
-</section>
+    </section>
+    
+    </br>
+    <div class="ui divider"></div>
+    </br>
+
+    <section>
+        <div class="ui container">
+            <div class="ui two column middle aligned grid">
+                <div class="right aligned column">
+                    {% if paginator.previous_page %}
+                        <a href="{{ paginator.previous_page_path }}" class="ui orange basic button">Previous page</a>
+                    {% else %} 
+                        <a href="{{ paginator.previous_page_path }}" class="ui orange basic button disabled" >Previous page</a>
+                    {% endif %}
+                </div>
+
+                <div class="left aligned column">
+                    {% if paginator.next_page %}
+                        <a href="{{ paginator.next_page_path }}" class="ui orange basic button">Next page</a>
+                    {% else %} 
+                        <a href="{{ paginator.next_page_path }}" class="ui orange basic button disabled" >Next page</a>
+                    {% endif %}
+                </div>
+
+
+            </div>
+        </div>
+    </section>
         
 </div>

@@ -1,0 +1,16 @@
+<div class="ui raised segment">
+    <!--post category-->
+    <a class="ui orange ribbon label">{{ post.categories | first }}</a>
+
+    <!--post title -->
+    <span><h2>{{ post.title }}</h2></span>
+
+    <!-- post author and date-->
+    <p class="author">
+        <span class="author">Posted by {{ post.author }} on {{ post.date | date: "%b %-d, %Y" }}</span> 
+    </p>
+
+    <p>{{ post.excerpt }}</p>
+
+    <a class="ui orange basic button" href="{{ post.url }}">Read more</a>
+</div>

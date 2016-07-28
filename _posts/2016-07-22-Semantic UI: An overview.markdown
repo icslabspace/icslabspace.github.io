@@ -5,6 +5,7 @@ date:   2016-07-22 12:45:26 +0300
 category: programming
 tags: web 
 author: icslab team 
+comments: true
 ---
 
 This a review for [Semantic UI](http://semantic-ui.com/) which was tested by [our team](http://www.icslab.eu/#ourteam) last month for building a presentation website.
@@ -28,16 +29,12 @@ We need a form with one field which is mandatory to be filled in. Otherwise, a s
     </div>
 </form>
 {% endhighlight html %}
- 
-![]({{ site.url }}/images/field.png)
 
 Available CSS are easy to use because their names are in natural language. For example, if you need a small, circular button containing the facebook icon (which by the way has already the appropriate style in place), you only need to add the specific style class:
 
 {% highlight html %}
 <button class="ui circular small facebook icon button">
 {% endhighlight %}
-
-![]({{ site.url }}/images/facebook.png)
 
 Another useful feature is the ability to use [theming](http://semantic-ui.com/usage/theming.html) to configure some parameters efficiently and consistently across the entire website. Basically, each UI component inherits the style from the theme and the existing pre-defined style classes available in the library (e.g. "UI modal") specify how a component should differ from the default theme. It is not configured from scratch every time. If a completely new layout is required, one can define a particular style class which will override the default style.
 

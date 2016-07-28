@@ -13,7 +13,7 @@
         </svg>
       </a>
 
-      <div class="trigger masthead inverted">
+      <div class="trigger masthead inverted pointing menu">
         {% for my_page in site.pages %}
           {% if my_page.title %}
           <a class="ui inverted orange basic button" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
