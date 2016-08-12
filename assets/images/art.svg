@@ -1694,6 +1694,33 @@
        y2="18953.164"
        gradientUnits="userSpaceOnUse"
        gradientTransform="matrix(0.40567863,0,0,0.45817856,-13.381483,8074.9793)" />
+    <filter
+       color-interpolation-filters="sRGB"
+       inkscape:collect="always"
+       id="filter4601-3">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="2.3879517"
+         id="feGaussianBlur4603-1" />
+    </filter>
+    <filter
+       color-interpolation-filters="sRGB"
+       inkscape:collect="always"
+       id="filter4601-61">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="2.3879517"
+         id="feGaussianBlur4603-6" />
+    </filter>
+    <filter
+       color-interpolation-filters="sRGB"
+       inkscape:collect="always"
+       id="filter4601-61-5">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="2.3879517"
+         id="feGaussianBlur4603-6-5" />
+    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -1702,9 +1729,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.079549516"
-     inkscape:cx="-2213.0617"
-     inkscape:cy="-1451.4308"
+     inkscape:zoom="0.45000002"
+     inkscape:cx="1649.8154"
+     inkscape:cy="-4796.1209"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -1729,6 +1756,17 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
+    <rect
+       style="fill:#ffffff;stroke:#1f231d;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;fill-opacity:1"
+       id="rect7212-8-2-1-6-0-2-1-5-4-6-4-0-5-9-3-1"
+       width="873.86688"
+       height="836.15424"
+       x="896.39984"
+       y="4892.0625"
+       ry="56.412231"
+       inkscape:export-filename="/home/alex/development/programing/web/live-site/icslabspace.github.io/assets/images/tiny-logo-5.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <rect
        style="fill:#ffffff;stroke:#1f231d;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;fill-opacity:1"
        id="rect7212-8-2-1-6-0-2-1-5-4-6-4-0-5-9-3-3-7"
@@ -10158,5 +10196,143 @@
            height="1222.2222"
            x="-1164.4443"
            y="861.2511" /></flowRegion><flowPara
-         id="flowPara5364"></flowPara></flowRoot>  </g>
+         id="flowPara5364" /></flowRoot>    <rect
+       style="fill:#ffffff;stroke:#1f231d;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;fill-opacity:1"
+       id="rect7212-8-0-7-8"
+       width="873.86688"
+       height="836.15424"
+       x="1021.2778"
+       y="3776.9817"
+       ry="42.27034"
+       inkscape:export-filename="/home/alex/development/programing/web/live-site/icslabspace.github.io/assets/images/tiny-logo-4.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#322621;fill-opacity:1;stroke:#009700;stroke-width:1.45926058px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 1107.4075,4144.0323 -57.7219,157.9879 c -2.9833,9.6556 -18.0159,44.4545 -18.0159,44.4545 l 21.2999,0.1799 c 0,0 8.822,-23.1011 8.8387,-22.1615 0.3598,21.0044 19.0598,24.863 33.1484,21.6616 l 91.6975,-29.6943 0,-39.488 -60.1982,19.4337 c -15.9381,2.5689 -27.2423,-3.2236 -21.0216,-19.474 l 48.2354,-133.2863 z"
+       id="path4667-0-1-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccsccccccc"
+       inkscape:export-filename="/home/alex/development/programing/web/live-site/icslabspace.github.io/assets/images/tiny-logo-4.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#322621;fill-opacity:1;stroke:#007a00;stroke-width:0.65138924;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 1386.3644,4262.5619 0.4559,63.098 c -28.0906,18.4111 -97.4253,31.0521 -142.9364,-4.3202 -43.202,-33.6022 -52.0498,-88.8752 -53.2768,-108.1258 -2.4816,-23.6904 -0.7982,-48.6246 0.3207,-56.7071 8.8627,-62.2451 35.2529,-95.7585 65.0023,-117.6458 49.6882,-32.7812 107.9802,-19.365 131.1165,-6.5532 l 0.2099,70.4094 c -26.591,-20.1853 -82.9689,-31.0399 -120.3454,-0.1484 -13.3652,24.3954 -13.1677,24.223 -16.5782,54.6259 -1.0376,14.9057 -2.3106,29.0598 0,54.6436 -0.1405,22.8452 -2.3467,39.9991 11.2981,51.2755 29.0542,27.869 87.1469,27.432 124.7292,-0.5514 z"
+       id="path4237-0-26"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccccccc"
+       inkscape:export-filename="/home/alex/development/programing/web/live-site/icslabspace.github.io/assets/images/tiny-logo-4.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#322621;fill-opacity:1;stroke:#008000;stroke-width:2.25490737px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 1604.5716,4021.5193 c -23.2408,-12.7437 -87.1153,-17.4622 -126.9947,-2.5148 -16.8805,8.8952 -37.1574,15.0422 -52.8783,46.9797 -3.4505,8.9585 -10.6617,38.8033 1.2869,64.0115 14.7131,29.4608 29.9122,39.2144 96.7847,72.888 16.6061,9.5473 8.4706,3.0645 20.1987,24.0335 5.258,14.1734 6.146,27.4331 0,41.6071 -12.9629,20.7198 -1.2894,12.4388 -15.2019,15.5066 -36.6765,3.4094 -57.3989,0.1124 -109.1012,-21.7618 l -0.052,67.3441 c 50.4973,25.147 107.266,20.4723 134.7953,11.6201 40.4776,-10.7056 56.8817,-37.2523 62.3668,-58.6271 3.9599,-23.0722 2.7889,-38.8614 -3.6148,-53.388 -11.3397,-30.374 -14.7772,-54.5079 -41.2418,-66.7592 -22.9193,-11.7051 -54.3368,-26.3744 -63.0679,-40.8547 -13.1044,-15.7541 -8.4011,-39.6141 -2.0716,-49.4357 7.5649,-9.5952 -26.3099,10.4475 -2.0317,3.5849 34.7082,-6.288 75.395,-3.8911 102.714,10.9654 0.3432,-13.2829 -2.1822,-53.712 -1.89,-65.1992 z"
+       id="path3584-8-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccccccccccccc"
+       inkscape:export-filename="/home/alex/development/programing/web/live-site/icslabspace.github.io/assets/images/tiny-logo-4.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#322621;fill-opacity:1;stroke:#008000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path3721-4"
+       sodipodi:cx="-2408.8889"
+       sodipodi:cy="7747.918"
+       sodipodi:rx="22.222221"
+       sodipodi:ry="22.222221"
+       d="m -2386.6667,7747.918 a 22.222221,22.222221 0 1 1 -44.4444,0 22.222221,22.222221 0 1 1 44.4444,0 z"
+       transform="matrix(2.243147,0,0,2.0557669,6556.157,-11860.252)"
+       inkscape:export-filename="/home/alex/development/programing/web/live-site/icslabspace.github.io/assets/images/tiny-logo-4.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#fc3d1b;fill-opacity:1;stroke:#005400;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter4601-3)"
+       d="m -1906.0593,7895.5838 79.4772,-0.5555 58.0261,-128.8079 31.0123,92.7079 c 16.2237,58.0348 87.1907,58.0991 98.3017,-21.375 l -8.8889,0 c -26.1211,30.3412 -41.3774,31.7528 -55.8339,-11.7007 l -69.6384,-217.7845 c -48.7397,-127.686 -89.1025,-36.1469 -101.3968,-2.3726 l 7.7778,-1.6666 c 20.9222,-32.1688 43.7931,-31.3329 54.9605,7.7614 l 23.8032,60.8375 z"
+       id="path3761-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccccccc"
+       transform="matrix(1.6661913,0,0,2.1949775,4635.4255,-12727.055)"
+       inkscape:export-filename="/home/alex/development/programing/web/live-site/icslabspace.github.io/assets/images/tiny-logo-4.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#322b1e;fill-opacity:1;stroke:#1f231d;stroke-width:0.23309821;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect3383-9-7-2-76-9-6"
+       width="521.71552"
+       height="466.75684"
+       x="1092.884"
+       y="5244.3833"
+       ry="52.030338"
+       inkscape:export-filename="/home/alex/development/programing/web/live-site/icslabspace.github.io/assets/images/tiny-logo-5.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:#009700;stroke-width:1.55898917px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 1314.1885,5431.959 -61.3964,174.5858 c -3.0806,10.6703 -14.6073,83.1255 -14.6073,83.1255 l 21.9994,0.1995 c 0,0 9.1123,-25.5279 9.129,-24.4894 0.3717,23.2111 43.6862,27.4746 58.2376,23.937 l 94.7089,-32.8139 -4,-77.6366 -62.1754,21.4755 c -16.4615,2.8386 -28.1369,-3.5622 -21.7118,-21.5196 l 49.8189,-147.2899 z"
+       id="path4667-0-1-4"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccsccccccc"
+       inkscape:export-filename="/home/alex/development/programing/web/live-site/icslabspace.github.io/assets/images/tiny-logo-5.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#322b1e;fill-opacity:1;stroke:#008000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path3721-8"
+       sodipodi:cx="-2408.8889"
+       sodipodi:cy="7747.918"
+       sodipodi:rx="22.222221"
+       sodipodi:ry="22.222221"
+       d="m -2386.6667,7747.918 a 22.222221,22.222221 0 1 1 -44.4444,0 22.222221,22.222221 0 1 1 44.4444,0 z"
+       transform="matrix(4.7521274,0,0,4.659672,12966.488,-31049.717)"
+       inkscape:export-filename="/home/alex/development/programing/web/live-site/icslabspace.github.io/assets/images/tiny-logo-5.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#fc3d1b;fill-opacity:1;stroke:#005400;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter4601-61)"
+       d="m -1927.161,7897.5402 78.1795,-2.5119 80.2901,-156.7353 50.9137,116.2192 c 16.2237,58.0348 79.4281,67.5773 90.5391,-11.8968 l -8.8889,0 c -26.1211,30.3412 -39.1854,12.2468 -53.6419,-31.2067 l -92.0018,-210.3384 c -48.7397,-127.686 -80.9345,-29.1491 -93.2288,4.6252 l 7.7778,-1.6666 c 20.9222,-24.3432 24.6097,-30.3547 45.3688,9.7178 l 17.089,45.1863 z"
+       id="path3761-9"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccccccc"
+       transform="matrix(2.3168212,0,0,2.2717459,5445.6977,-12229.416)"
+       inkscape:export-filename="/home/alex/development/programing/web/live-site/icslabspace.github.io/assets/images/tiny-logo-5.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#1f231d;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect7212-8-2-1-6-0-2-1-5-4-6-4-0-5-9-3-1-3"
+       width="873.86688"
+       height="836.15424"
+       x="889.73315"
+       y="5838.6401"
+       ry="56.412231"
+       inkscape:export-filename="/home/alex/development/programing/web/live-site/icslabspace.github.io/assets/images/tiny-logo-6.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#322b1e;fill-opacity:1;stroke:#008000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path3721-8-7"
+       sodipodi:cx="-2408.8889"
+       sodipodi:cy="7747.918"
+       sodipodi:rx="22.222221"
+       sodipodi:ry="22.222221"
+       d="m -2386.6667,7747.918 a 22.222221,22.222221 0 1 1 -44.4444,0 22.222221,22.222221 0 1 1 44.4444,0 z"
+       transform="matrix(4.7521274,0,0,4.659672,12959.821,-30103.14)"
+       inkscape:export-filename="/home/alex/development/programing/web/live-site/icslabspace.github.io/assets/images/tiny-logo-6.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#fc3d1b;fill-opacity:1;stroke:#005400;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter4601-61-5)"
+       d="m -1927.161,7897.5402 78.1795,-2.5119 80.2901,-156.7353 50.9137,116.2192 c 16.2237,58.0348 79.4281,67.5773 90.5391,-11.8968 l -8.8889,0 c -26.1211,30.3412 -39.1854,12.2468 -53.6419,-31.2067 l -92.0018,-210.3384 c -48.7397,-127.686 -80.9345,-29.1491 -93.2288,4.6252 l 7.7778,-1.6666 c 20.9222,-24.3432 24.6097,-30.3547 45.3688,9.7178 l 17.089,45.1863 z"
+       id="path3761-9-8"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccccccc"
+       transform="matrix(2.3168212,0,0,2.2717459,5439.0311,-11282.839)"
+       inkscape:export-filename="/home/alex/development/programing/web/live-site/icslabspace.github.io/assets/images/tiny-logo-6.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+  </g>
 </svg>
