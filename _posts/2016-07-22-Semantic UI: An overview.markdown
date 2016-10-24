@@ -6,6 +6,7 @@ category: programming
 tags: web 
 author: icslab team 
 comments: true
+image: /images/posts/semantic-ui.png
 ---
 
 This a review for [Semantic UI](http://semantic-ui.com/) which was tested by [our team](http://www.icslab.eu/#ourteam) last month for building a presentation website.
