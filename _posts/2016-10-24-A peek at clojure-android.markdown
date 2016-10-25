@@ -5,8 +5,11 @@ date:   2016-10-24 10:45:26 +0300
 category: programming
 tags: clojure android 
 author: avr.PhD. Alex Gherega 
+images: 
+  - url: /images/posts/clojure-android.png
+    alt: A peek at clojure-android
+    title: clojure-android.png
 ---
-
 <h1><img src="/images/posts/clojure-android.png"/>
 <font color="orange"><font color="green">(peek </font>@<font color="grey">clojure-android</font><font color="green">)</font></font></h1>
 This article covers a Clojure for Android technology stack review with various juicy hints on what you can expect from it, where can you use it successfully and what's the future of all this. 

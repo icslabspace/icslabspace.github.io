@@ -7,5 +7,7 @@ author: Dummy name
 category: dumcat
 ---
 
-
-blah
+<!--
+{% assign image = page.images[0] %}
+{% include image.html image=image %}
+-->

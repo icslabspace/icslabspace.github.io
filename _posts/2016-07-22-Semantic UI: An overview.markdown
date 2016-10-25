@@ -6,7 +6,10 @@ category: programming
 tags: web 
 author: icslab team 
 comments: true
-image: /images/posts/semantic-ui.png
+images: 
+  - url: /images/posts/semantic-ui.png
+    alt: semantic-ui
+    title: semantic-ui.png
 ---
 
 <div class=" segment">
