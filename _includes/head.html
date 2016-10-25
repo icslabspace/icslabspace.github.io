@@ -74,7 +74,7 @@
   <meta content="{{ site.url }}{{ page.url }}" property="og:url">
 {% endif %}
 {% if page.images %}
-  <meta content="{{ page.images[0].url }}" property="og:image">
+  <meta content="{{ site.url }}{{ page.images[0].url }}" property="og:image">
 {% else %}
   <meta content="/assets/images/logo-1-fb.png" property="og:image"> 
 {% endif %}
