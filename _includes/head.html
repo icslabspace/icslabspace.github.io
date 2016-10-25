@@ -76,9 +76,9 @@
   <meta content="{{ site.url }}{{ page.url }}" property="og:url">
 {% endif %}
 {% if page.images %}
-  <meta content="/images/posts/{{ page.images[0].title }}" property="og:image">
+  <meta content="/images/posts/{{ page.images[1].title }}" property="og:image">
 {% else %}
-  <meta content="/assets/images/blog-icon.png" property="og:image">
+  <meta content="/assets/images/logo-1-fb.png" property="og:image"> 
 {% endif %}
 {% if page.categories %}
   {% for category in page.categories limit:1 %}
@@ -92,3 +92,5 @@
 {% endif %}
     
 </head>
+
+<!--sblog-icon.png-->
