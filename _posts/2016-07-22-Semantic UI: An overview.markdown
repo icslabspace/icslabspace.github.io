@@ -9,7 +9,10 @@ comments: true
 image: /images/posts/semantic-ui.png
 ---
 
-This a review for [Semantic UI](http://semantic-ui.com/) which was tested by [our team](http://www.icslab.eu/#ourteam) last month for building a presentation website.
+<div class=" segment">
+  <img class="ui tiny left floated image" src="/images/posts/semantic-ui.png">
+  This a review for <a href="http://semantic-ui.com/">Semantic UI</a> which was tested by <a href="http://www.icslab.eu/#ourteam">our team</a> last month for building a presentation website.
+</div>  
 
 There are many available front-end frameworks like [Bootstrap](http://getbootstrap.com/), [Foundation](http://foundation.zurb.com/), [HTML Kickstart](http://www.99lime.com/elements/) or [Ivory](https://github.com/kanthvallampati/IVORY), but we decided to go with [Semantic UI 2.2](http://semantic-ui.com/) to build a website. 
 
