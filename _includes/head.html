@@ -62,11 +62,9 @@
 {% else %}
   <meta content="{{ site.title }}" property="og:title">
 {% endif %}
-{% if page.title %}
-  <meta content="article" property="og:type">
-{% else %}
-  <meta content="website" property="og:type">
-{% endif %}
+
+<meta content="article" property="og:type">
+
 {% if page.content %}
   <meta content="{{ page.content | strip_html | condense_spaces | truncate:300 }}" property="og:description">
 {% else %}
@@ -76,7 +74,7 @@
   <meta content="{{ site.url }}{{ page.url }}" property="og:url">
 {% endif %}
 {% if page.images %}
-  <meta content="/images/posts/{{ page.images[1].title }}" property="og:image">
+  <meta content="{{ page.images[0].url }}" property="og:image">
 {% else %}
   <meta content="/assets/images/logo-1-fb.png" property="og:image"> 
 {% endif %}
