@@ -7,11 +7,10 @@ tags: web
 author: icslab team 
 comments: true
 images: 
-  - url: /images/posts/semantic-ui.png
+  - url: /images/posts/semantic-ui-fb.png
     alt: semantic-ui
     title: semantic-ui.png
 ---
-
 <div class=" segment">
   <img class="ui tiny left floated image" src="/images/posts/semantic-ui.png">
   This a review for <a href="http://semantic-ui.com/">Semantic UI</a> which was tested by <a href="http://www.icslab.eu/#ourteam">our team</a> last month for building a presentation website.

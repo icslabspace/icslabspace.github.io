@@ -6,7 +6,7 @@ category: programming
 tags: clojure android 
 author: avr.PhD. Alex Gherega 
 images: 
-  - url: /images/posts/clojure-android.png
+  - url: /images/posts/clojure-android-fb.png
     alt: A peek at clojure-android
     title: clojure-android.png
 ---
