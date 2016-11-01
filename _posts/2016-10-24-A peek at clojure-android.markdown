@@ -25,7 +25,7 @@ However, using a todo also gives a false sense of comfort and we usually don't e
 
 So this is the idea behind this simple app: instead of having a full fledged todo – checkbox and todo item description we can have colored checkboxes, have the details stored but not displayed, use your associative memory to know what each item on the list is about only by seeing a border-colored checkbox. You can check out more about the app [here](https://play.google.com/store/apps/details?id=eu.icslab.gherega.alex.codo).
 
-Now, although here at [icslab.eu](www.icslab.eu), we usually have a nervous twitch when we here the words Android/iOS API, we do actually enjoy and appreciate having a small personal – quite powerful – computer at our fingertips' disposal just by reaching into our pockets.
+Now, although here at [icslab.eu](www.icslab.eu), we usually have a nervous twitch when we hear the words Android/iOS API, we do actually enjoy and appreciate having a small personal – quite powerful – computer at our fingertips' disposal just by reaching into our pockets.
 
 It's settled then: I'll an Android based app for having colorful todos that also help our brains.
 
@@ -174,7 +174,7 @@ While you can add new stuff to neko and in the future to get things done without
 
 #### Android knowledge
 
-Neko falls into the Android philosophy followers where it basically mostly just wraps over the Android API. I was actually hoping1 to have middleware level over the Android API and thus get a new consistent language for developing mobile apps. But no :) You still need to know your way around Android – and quite at a high level I might add, otherwise you'll end up really frustrated.
+Neko falls into the Android philosophy followers where it basically mostly just wraps over the Android API. I was actually hopping to have middleware level over the Android API and thus get a new consistent language for developing mobile apps. But no :) You still need to know your way around Android – and quite at a high level I might add, otherwise you'll end up really frustrated.
 
 #### REPL
 
@@ -198,7 +198,7 @@ Although the REPL hot deployment works most of the time it doesn't absolve you f
 
 <h2><font color="purple">What's next?</font></h2>
 
-While all the ecosystem described above has a lot of nice features and will allow you to quickly test out what you want and need from your Android design and app, there is still some room from improvement.
+While all the ecosystem described above has a lot of nice features and will allow you to quickly test out what you want and need from your Android design and app, there is still some room for improvement.
 
 The most important new features I'd like to see are: have a way to consistently avoid XML through a nicely designed architecture, extend the set of namespaces' set with all the current new features of Android stack, some app management API (more expressive events than intents), a better debug environment.
 
