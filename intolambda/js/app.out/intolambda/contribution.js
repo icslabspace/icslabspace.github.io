@@ -6,9 +6,9 @@ goog.require('intolambda.state');
 goog.require('intolambda.utils');
 goog.require('intolambda.form_utils');
 intolambda.contribution.merge_selections = (function intolambda$contribution$merge_selections(){
-var sels = cljs.core.map.call(null,(function (p1__10544_SHARP_){
-if(cljs.core.truth_(cljs.core.last.call(null,p1__10544_SHARP_))){
-return cljs.core.name.call(null,cljs.core.first.call(null,p1__10544_SHARP_));
+var sels = cljs.core.map.call(null,(function (p1__10499_SHARP_){
+if(cljs.core.truth_(cljs.core.last.call(null,p1__10499_SHARP_))){
+return cljs.core.name.call(null,cljs.core.first.call(null,p1__10499_SHARP_));
 } else {
 return null;
 }
@@ -37,8 +37,8 @@ return null;
 }
 });
 intolambda.contribution.clear_selections = (function intolambda$contribution$clear_selections(roles){
-return cljs.core.doall.call(null,cljs.core.map.call(null,(function (p1__10545_SHARP_){
-return intolambda.utils.set_checkbox_flag.call(null,p1__10545_SHARP_,false);
+return cljs.core.doall.call(null,cljs.core.map.call(null,(function (p1__10500_SHARP_){
+return intolambda.utils.set_checkbox_flag.call(null,p1__10500_SHARP_,false);
 }),roles));
 });
 intolambda.contribution.contribution_component = (function intolambda$contribution$contribution_component(roles,contributors,close_fn){
@@ -46,8 +46,8 @@ var form_params = new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keywo
 return intolambda.contribution.clear_selections.call(null,roles);
 })], null);
 return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"div","div",1057191632),intolambda.utils.display_grid.call(null,"contribute",roles,((function (form_params){
-return (function (p1__10546_SHARP_){
-return intolambda.utils.build_contributor_box.call(null,p1__10546_SHARP_,intolambda.contribution.toggle_checkbox);
+return (function (p1__10501_SHARP_){
+return intolambda.utils.build_contributor_box.call(null,p1__10501_SHARP_,intolambda.contribution.toggle_checkbox);
 });})(form_params))
 ),new cljs.core.PersistentVector(null, 5, 5, cljs.core.PersistentVector.EMPTY_NODE, [intolambda.form_utils.build_form_for_email,form_params,contributors,null,close_fn], null)], null);
 });
