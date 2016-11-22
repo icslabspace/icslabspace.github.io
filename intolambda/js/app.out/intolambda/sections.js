@@ -1,0 +1,31 @@
+// Compiled by ClojureScript 1.7.228 {}
+goog.provide('intolambda.sections');
+goog.require('cljs.core');
+goog.require('cljsjs.material');
+goog.require('intolambda.registration');
+goog.require('intolambda.contribution');
+goog.require('intolambda.utils');
+intolambda.sections.home = (function intolambda$sections$home(){
+return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"section","section",-300141526),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"id","id",-1388402092),"home"], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"div.page-content.intolambda-center-align","div.page-content.intolambda-center-align",-624635836),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"id","id",-1388402092),"bg"], null)], null)], null);
+});
+intolambda.sections.the_challenge = (function intolambda$sections$the_challenge(){
+return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"section","section",-300141526),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"id","id",-1388402092),"the-challenge"], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"div.page-content","div.page-content",-2018247837),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"h3.dark-primary-color.text-primary-color","h3.dark-primary-color.text-primary-color",1044969238),"the challenge"], null),new cljs.core.PersistentVector(null, 6, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"div.mdl-color-text--primary","div.mdl-color-text--primary",-322504480),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"style","style",-496642736),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"padding","padding",1660304693),"10px"], null)], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"p","p",151049309),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"span.thick","span.thick",1786672778),"into-lambda"], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"span","span",1394872991)," is a new challenging event in the functional programming environment in Romania."], null)], null),new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"p","p",151049309),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"span","span",1394872991),"The journey starts with some enlightening talks given by "], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"a.mdl-color-text--teal","a.mdl-color-text--teal",-1624899270),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"href","href",-793805698),"#speakers"], null),"our experts"], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"span","span",1394872991)," which trigger your intuition and curiosity for the hackathon that will follow."], null)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"p","p",151049309),"Grouped in ad-hoc organized teams, you will then join the venture of designing and implementing a new API while improving your Clojure skills and having fun."], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"p.thick","p.thick",-1455381076),"More details will be available soon!"], null)], null)], null)], null);
+});
+intolambda.sections.registration = (function intolambda$sections$registration(registration_form_fields,initial_challenge,state){
+return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"section","section",-300141526),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"id","id",-1388402092),"register"], null),intolambda.registration.register.call(null,registration_form_fields,initial_challenge,state)], null);
+});
+intolambda.sections.speakers = (function intolambda$sections$speakers(speaker_list){
+return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"section","section",-300141526),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"id","id",-1388402092),"speakers"], null),intolambda.utils.display_grid.call(null,"speakers",speaker_list,intolambda.utils.build_speaker_box)], null);
+});
+intolambda.sections.sponsors = (function intolambda$sections$sponsors(sponsor_list){
+return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"section","section",-300141526),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"id","id",-1388402092),"sponsors"], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"div","div",1057191632),intolambda.utils.display_grid.call(null,"sponsors",sponsor_list,intolambda.utils.build_sponsor_box)], null)], null);
+});
+intolambda.sections.contributors = (function intolambda$sections$contributors(roles,contributors__$1){
+return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"section","section",-300141526),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"id","id",-1388402092),"contributors",new cljs.core.Keyword(null,"hidden","hidden",-312506092),true], null),intolambda.contribution.contribution_component.call(null,roles,contributors__$1,(function (){
+intolambda.utils.show_element.call(null,"contributors",true);
+
+return intolambda.contribution.clear_selections.call(null,roles);
+}))], null);
+});
+
+//# sourceMappingURL=sections.js.map

@@ -1,0 +1,2 @@
+(ns adzerk.boot-reload (:require [adzerk.boot-reload.client :as client] intolambda.app))
+(client/connect "ws://localhost:50469" {:ws-host nil, :asset-host nil, :on-jsload (fn* [] (intolambda.app/reload))})
