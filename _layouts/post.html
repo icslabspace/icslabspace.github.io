@@ -36,23 +36,29 @@ layout: default
 <div class="ui divider"></div>
 <br/>
 
-<div class="ui container">
+<div class="ui four column grid">
+  <div class="row">
+      <div class="column"></div>
+      <div class="column">
+          <!-- Previous / Next post -->
+          {% if page.previous %}
+            <p style="font-size:90%">      
+                <button class="ui orange basic button" 
+                        onclick="location.href='{{ page.previous.url }}';">Previous article</button>
+            </p>
+          {% endif %}
+       </div>
       
-<!-- Previous / Next post -->
-  <br/>
-  {% if page.previous %}
-    <p style="font-size:90%">      
-        <button class="ui orange basic button" 
-                onclick="location.href='{{ page.previous.url }}';">Previous article</button>
-    </p>
-  {% endif %}
-
-  {% if page.next %}
-    <p style="font-size:90%">
-        <button class="ui orange basic button" 
-                onclick="location.href='{{ page.next.url }}';">Next article</button>
-    </p>
-  {% endif %}
+      <div class="column">
+        {% if page.next %}
+            <p style="font-size:90%">
+                <button class="ui orange basic button" 
+                        onclick="location.href='{{ page.next.url }}';">Next article</button>
+            </p>
+          {% endif %}
+      </div>
+      <div class="column"></div>
+    </div>
 </div>
 
 
