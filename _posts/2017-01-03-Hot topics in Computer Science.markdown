@@ -34,7 +34,7 @@ Everything from the Artificial Intelligence field is up for grabs in the hot top
 ![pic](/images/posts/hotrest/intellisys.png)
 
 ### 3. Virtualization & Vision
-I've decided to combine these two as it seems virtualization is on a real high but this buzz came from games such as Pokemon-Go. So it is no unnatural to see that Machine Vision combined with Virtualization Systems and Augmented Reality can make for a powerful topic.
+I've decided to combine these two as it seems virtualization is on a real high but this buzz came from games such as Pokemon-Go. So it is not unnatural to see that Machine Vision combined with Virtualization Systems and Augmented Reality can make for a powerful topic.
 ![pic](/images/posts/hotrest/virtvision.png)
 
 ### 4. Healthcare
