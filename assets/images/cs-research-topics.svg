@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="cs-research-topics.svg">
+  <defs
+     id="defs4">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3808">
+      <stop
+         style="stop-color:#ff0000;stop-opacity:1;"
+         offset="0"
+         id="stop3810" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1"
+         offset="1"
+         id="stop3812" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2996-6"
+       id="linearGradient3772-3"
+       x1="109.0965"
+       y1="1238.2303"
+       x2="79.545113"
+       y2="-767.53674"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-4571.4285,3725.7142)" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient2996-6">
+      <stop
+         style="stop-color:#ff0000;stop-opacity:1;"
+         offset="0"
+         id="stop2998-7" />
+      <stop
+         style="stop-color:#ff0000;stop-opacity:0;"
+         offset="1"
+         id="stop3000-5" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3808"
+       id="linearGradient3814"
+       x1="-4348.7876"
+       y1="4752.6431"
+       x2="-4357.0713"
+       y2="3007.0994"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(8.0812203,-35.675119)" />
+    <filter
+       inkscape:collect="always"
+       id="filter3864"
+       x="-0.027964105"
+       width="1.0559282"
+       y="-0.11582371"
+       height="1.2316474">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="49.766157"
+         id="feGaussianBlur3866" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.04375"
+     inkscape:cx="-6949.5662"
+     inkscape:cy="-6603.3684"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1839"
+     inkscape:window-height="1050"
+     inkscape:window-x="81"
+     inkscape:window-y="30"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#ff0000;fill-opacity:1;stroke:none"
+       id="rect2990"
+       width="4367.8999"
+       height="2173.8484"
+       x="-6377.5811"
+       y="3602.2588"
+       inkscape:export-filename="/home/alex/development/icslab.eu/web/live-site/icslabspace.github.io/images/posts/hotrest/hot-topics-2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       ry="226.27417" />
+    <rect
+       style="fill:url(#linearGradient3814);fill-opacity:1;stroke:none;filter:url(#filter3864)"
+       id="rect2990-3"
+       width="4271.146"
+       height="1031.2118"
+       x="-6318.7974"
+       y="3611.4329"
+       inkscape:export-filename="/home/alex/development/icslab.eu/web/live-site/icslabspace.github.io/images/posts/hotrest/hot-topics-2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       ry="155.82549"
+       rx="161.6244" />
+    <path
+       style="fill:#ffffd8;fill-opacity:1;stroke:none"
+       d="m -5982.85,3915.4062 107.0761,-4.0407 c -116.9669,232.5398 -83.7842,282.7995 22.2234,585.8885 63.5965,181.8304 113.7476,349.5618 34.4816,564.6152 -13.0396,35.3772 -60.4995,136.9778 -55.1897,211.1819 l -104.5508,2.0203 c -14.2248,-78.4819 47.3029,-190.0879 58.5049,-230.8432 76.2323,-277.3503 21.5437,-349.4135 -38.3019,-516.6696 -102.3712,-286.1064 -137.5566,-428.8757 -24.2436,-612.1524 z"
+       id="rect2987"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccssccssc"
+       inkscape:export-filename="/home/alex/development/icslab.eu/web/live-site/icslabspace.github.io/images/posts/hotrest/hot-topics-2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#ffffd8;fill-opacity:1;stroke:none"
+       d="m -5571.1697,3913.3706 107.0762,-4.0406 c -116.9669,232.5398 -83.7843,282.7995 22.2233,585.8885 63.5966,181.8304 113.7477,349.5618 34.4816,564.6152 -13.0396,35.3772 -60.4994,136.9778 -55.1897,211.1819 l -104.5508,2.0203 c -14.2247,-78.4819 47.303,-190.0879 58.5049,-230.8432 76.2323,-277.3503 21.5438,-349.4135 -38.3018,-516.6696 -102.3712,-286.1064 -137.5567,-428.8757 -24.2437,-612.1525 z"
+       id="rect2987-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccssccssc"
+       inkscape:export-filename="/home/alex/development/icslab.eu/web/live-site/icslabspace.github.io/images/posts/hotrest/hot-topics-2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#ffffd8;fill-opacity:1;stroke:none"
+       d="m -5180.4589,3904.2336 107.0762,-4.0406 c -116.9669,232.5398 -83.7843,282.7995 22.2233,585.8885 63.5965,181.8304 113.7477,349.5617 34.4816,564.6151 -13.0396,35.3772 -60.4995,136.9778 -55.1897,211.1819 l -104.5508,2.0203 c -14.2248,-78.4819 47.303,-190.0879 58.5049,-230.8432 76.2323,-277.3503 21.5437,-349.4134 -38.3018,-516.6695 -102.3712,-286.1064 -137.5567,-428.8757 -24.2437,-612.1525 z"
+       id="rect2987-3-6"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccssccssc"
+       inkscape:export-filename="/home/alex/development/icslab.eu/web/live-site/icslabspace.github.io/images/posts/hotrest/hot-topics-2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#ffffd8;fill-opacity:1;stroke:none"
+       id="rect3796"
+       width="1288.9546"
+       height="133.34013"
+       x="-6144.4746"
+       y="5416.4927"
+       inkscape:export-filename="/home/alex/development/icslab.eu/web/live-site/icslabspace.github.io/images/posts/hotrest/hot-topics-2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-size:60px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:112.99999952%;letter-spacing:0.07px;word-spacing:0px;fill:#ffffd8;fill-opacity:1;stroke:none;font-family:Mitra Mono;-inkscape-font-specification:Mitra Mono"
+       x="-4632.647"
+       y="4675.2744"
+       id="text3798"
+       sodipodi:linespacing="113%"
+       inkscape:export-filename="/home/alex/development/icslab.eu/web/live-site/icslabspace.github.io/images/posts/hotrest/hot-topics-2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan3800"
+         x="-4632.647"
+         y="4675.2744"
+         style="font-size:1000px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:112.99999952%;letter-spacing:50px;word-spacing:1px;fill:#ffffd8;fill-opacity:1;font-family:Trebuchet MS;-inkscape-font-specification:Trebuchet MS"
+         dy="0"
+         dx="0"
+         rotate="0 359 0">CS</tspan><tspan
+         sodipodi:role="line"
+         x="-4632.647"
+         y="5531.1377"
+         id="tspan3806"
+         style="font-size:700px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:112.99999952%;letter-spacing:50px;word-spacing:1px;fill:#ffffd8;fill-opacity:1;font-family:Trebuchet MS;-inkscape-font-specification:Trebuchet MS"
+         rotate="359 359 359 359 359 359 0">TOPICS</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:60px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Mitra Mono;-inkscape-font-specification:Mitra Mono"
+       x="2618.3154"
+       y="-515.39459"
+       id="text3802"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3804"
+         x="2618.3154"
+         y="-515.39459" /></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3810"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Mitra Mono;font-style:normal;font-weight:normal;font-size:60px;line-height:125%;letter-spacing:0px;word-spacing:0px;-inkscape-font-specification:Mitra Mono;font-stretch:normal;font-variant:normal"><flowRegion
+         id="flowRegion3812"><rect
+           id="rect3814"
+           width="3386.0312"
+           height="3248.6506"
+           x="-274.76151"
+           y="-668.93774" /></flowRegion><flowPara
+         id="flowPara3816" /></flowRoot>  </g>
+</svg>
