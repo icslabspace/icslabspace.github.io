@@ -12,7 +12,7 @@ images:
 ---
 
 <div class="ui container">
-  <img class="ui small left floated image" src="/images/posts/horest/hot-topics-m.jpg">
+  <img class="ui small left floated image" src="/images/posts/hotrest/hot-topics-m.jpg">
   As scientists it is always beneficial to keep up with the scientific communities' trends with respect to research topics.
   As {% highlight clojure %}clj-repl=> (and :engineers :scientists){% endhighlight clojure} what we want is to offer a real, moral and authentic gain from our efforts and research. <h6>As we all come to know, the academic domain has also turn into somewhat of a corporate-slash-political scene.</h6
 
