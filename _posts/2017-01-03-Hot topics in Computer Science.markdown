@@ -43,7 +43,7 @@ Yes! The icslab.eu team has already embarked on this research as early as start 
 ![pic](/images/posts/hotrest/health.png)
 
 ### 5. Security & privacy
-This topic may reach soon it's own scale. With everything that's going on in the world people do feel a-possible-real paranoia when it comes to their digital lives. So, no wonder, this year's one of the topics reaching the melting points of bacon fat. You can start working around subtopics such as cyber security, protocols, cryptography, security impact on performance, electronic data inerchange,  biometrics.
+This topic may soon reach it's own scale. With everything that's going on in the world people do feel a-possible-real paranoia when it comes to their digital lives. So, no wonder, this year's one of the topics reaching the melting points of bacon fat. You can start working around subtopics such as cyber security, protocols, cryptography, security impact on performance, electronic data inerchange,  biometrics.
 ![pic](/images/posts/hotrest/sec.png)
 
 ### 6. Big Data
