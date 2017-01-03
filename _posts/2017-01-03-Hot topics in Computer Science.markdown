@@ -18,8 +18,8 @@ images:
 
   In this post I'll try to point out some of the hottest topics of research in Computer Science academic domain as bias free as possible (i.e. without the politics and the agendas). Here was the perfect opportunity for me to make a political joke but I've decided to go without. I don't like political puns as to many of them get elected.
 
-  <p>So here's my &lt; unordered &gt; list!</p>
   <div class="ui hidden divider"></div>
+  So here's my &lt; unordered &gt; list!
 </div>  
 
 <div class="ui hidden divider"></div>
