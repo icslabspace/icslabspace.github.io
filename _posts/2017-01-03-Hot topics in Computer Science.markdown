@@ -4,7 +4,7 @@ title: Hot research topics in CS for 2017
 date:   2017-01-03 09:46 +0300
 category: computer science programming
 tags: computer science topics 2017
-author: Alexandru Gherega
+author: avr.PhD. Alex Gherega
 images: 
   - url: /images/posts/hotrest/hot-topics-m.jpg
     alt: Where should we focus our passions
