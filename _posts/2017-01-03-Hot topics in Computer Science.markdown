@@ -39,6 +39,7 @@ I've decided to combine these two as it seems virtualization is on a real high b
 
 ### 4. Healthcare
 Yes! The icslab.eu team has already embarked on this research as early as start of 2016. However we do see more and more interest in remote medical diagnosis and analysis, self practice devices and medical more-or-less-automated robotic systems.
+
 ![pic](/images/posts/hotrest/health.png)
 
 ### 5. Security & privacy
