@@ -31,7 +31,7 @@ Clearly most conferences out there this year will cover Internet of Things and I
 
 ### 2. Intelligent systems
 Everything from the Artificial Intelligence field is up for grabs in the hot topics department. Neural Networks, Fuzzy Logic, Expert and Multi-Agent systems, Ambient and Emotional Intelligence, Data mining, Natural Language Processing and Sentiment Analysis are just some of the main topics in high demand.
-![pic](/images/posts/hotrest/intellitsys.png)
+![pic](/images/posts/hotrest/intellisys.png)
 
 ### 3. Virtualization & Vision
 I've decided to combine these two as it seems virtualization is on a real high but this buzz came from games such as Pokemon-Go. So it is no unnatural to see that Machine Vision combined with Virtualization Systems and Augmented Reality can make for a powerful topic.
