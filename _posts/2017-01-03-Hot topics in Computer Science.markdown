@@ -12,18 +12,19 @@ images:
 ---
 
 <div class="ui container">
-  <img class="ui small left floated image" src="/images/posts/hotrest/hot-topics-m.jpg">
+  <img class="ui small left floated image" src="/images/posts/hotrest/hot-topics-m.jpg"/>
   As scientists it is always beneficial to keep up with the scientific communities' trends with respect to research topics.
-  As {% highlight clojure %}clj-repl=> (and :engineers :scientists){% endhighlight clojure%} what we want is to offer a real, moral and authentic gain from our efforts and research. <h6>As we all come to know, the academic domain has also turn into somewhat of a corporate-slash-political scene.</h6>
+  As {% highlight clojure %}(and :engineers :scientists){% endhighlight clojure%} what we want is to offer a real, moral and authentic gain from our efforts and research. <h6>As we all come to know, the academic domain has also turn into somewhat of a corporate-slash-political scene.</h6>
 
   In this post I'll try to point out some of the hottest topics of research in Computer Science academic domain as bias free as possible (i.e. without the politics and the agendas). Here was the perfect opportunity for me to make a political joke but I've decided to go without. I don't like political puns as to many of them get elected.
 
   So here's my <unordered> list!
-  <div class="ui hidden divider"></div>
 </div>  
 
 <div class="ui hidden divider"></div>
 <div class="ui hidden divider"></div>
+
+![pic](/images/posts/hotrest/iot.png)
 
 <h3> 1. IoT and IoE </h3>
 Clearly most conferences out there this year will cover Internet of Things and Internet of Everything to some degree. Weather an academic or private conference this topic is clearly still in the hot seat.
