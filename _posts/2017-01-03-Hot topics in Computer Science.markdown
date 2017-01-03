@@ -51,7 +51,7 @@ We still live in the age of information. We do need storage and smart manipulati
 ![pic](/images/posts/hotrest/bigdata.png)
 
 ### 7. SmartCity
-7.5 BILLION people and counting! If you can count fast enough (i.e. about 3 – 4 numbers per second) it would take you ~520000 hours or ~21701days.. which means more then 60 years!
+7.5 BILLION people and counting! If you can count fast enough (i.e. about 3 – 4 numbers per second) it would take you ~520000 hours or ~21701days.. which means more then 60 years to reach this number starting from 1!
 We need to improve space utilization, that much is clear. But we also need better use/re-use of resources (heat recovering on busy overcrowded and overheated cities), engage with new technologies in our architectural urban designs (e.g. roads made of solar panels), reduce waste (intelligent disposing devices and robots) and many more. This is a cool one that hits this hot research topic list.
 ![pic](/images/posts/hotrest/smartcity.png)
 
