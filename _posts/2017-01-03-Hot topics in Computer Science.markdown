@@ -25,42 +25,42 @@ images:
 <div class="ui hidden divider"></div>
 <div class="ui hidden divider"></div>
 
-<h3> 1. IoT and IoE </h3>
+### 1. IoT and IoE
 Clearly most conferences out there this year will cover Internet of Things and Internet of Everything to some degree. Weather an academic or private conference this topic is clearly still in the hot seat.
 ![pic](/images/posts/hotrest/iot.png)
 
-<h3> 2. Intelligent systems </h3>
+### 2. Intelligent systems
 Everything from the Artificial Intelligence field is up for grabs in the hot topics department. Neural Networks, Fuzzy Logic, Expert and Multi-Agent systems, Ambient and Emotional Intelligence, Data mining, Natural Language Processing and Sentiment Analysis are just some of the main topics in high demand.
 ![pic](/images/posts/hotrest/intellitsys.png)
 
-<h3> 3. Virtualization & Vision </h3>
+### 3. Virtualization & Vision
 I've decided to combine these two as it seems virtualization is on a real high but this buzz came from games such as Pokemon-Go. So it is no unnatural to see that Machine Vision combined with Virtualization Systems and Augmented Reality can make for a powerful topic.
 ![pic](/images/posts/hotrest/virtvision.png)
 
-<h3> 4. Healthcare </h3>
+### 4. Healthcare
 Yes! The icslab.eu team has already embarked on this research as early as start of 2016. However we do see more and more interest in remote medical diagnosis and analysis, self practice devices and medical more-or-less-automated robotic systems.
 ![pic](/images/posts/hotrest/health.png)
 
-<h3> 5. Security & privacy </h3>
+### 5. Security & privacy
 This topic may reach soon it's own scale. With everything that's going on in the world people do feel a-possible-real paranoia when it comes to their digital lives. So, no wonder, this year's one of the topics reaching the melting points of bacon fat. You can start working around subtopics such as cyber security, protocols, cryptography, security impact on performance, electronic data inerchange,  biometrics.
 ![pic](/images/posts/hotrest/sec.png)
 
-<h3> 6. Big Data </h3>
+### 6. Big Data
 We still live in the age of information. We do need storage and smart manipulation of storage. Cloud computing, Big Data all conjoined with Distributed Systems are still on high demand – more so in the industrial aplicative domains. Not as hot as bacon but you'll definitely get a fever.
 ![pic](/images/posts/hotrest/bigdata.png)
 
-<h3> 7. SmartCity </h3>
+### 7. SmartCity
 7.5 BILLION people and counting! If you can count fast enough (i.e. about 3 – 4 numbers per second) it would take you ~520000 hours or ~21701days.. which means more then 60 years!
 We need to improve space utilization, that much is clear. But we also need better use/re-use of resources (heat recovering on busy overcrowded and overheated cities), engage with new technologies in our architectural urban designs (e.g. roads made of solar panels), reduce waste (intelligent disposing devices and robots) and many more. This is a cool one that hits this hot research topic list.
 ![pic](/images/posts/hotrest/smartcity.png)
 
-<h3> 8. Last one! </h3>
+### 8. Last one!
 I know some of you will be dissapointed. “Only 8?” I hear you cry. The truth is that we really do enjoy research. So why stick to the conformity of 10 or 100 or 50? Why not 8? Why is 8 not good enough for you? Don't hate the 8 :) 
 So the last one on my list is: Theory of Computing (and please don't abbreviate it as ToC as that is better known for Table of Contents (: ).
 Yes this involves maths (as any reasonable and sensible field of Mathematics should.. and CS is a subfield of Mathematics). This topic can include all of the above as well as the more exotic fields like: new architectural manifestos, Quantic computing, nano scaled digital devices & robotics and so on.
 ![pic](/images/posts/hotrest/thocp.png)
 
-<h3> References </h3>
+### References
 Now that we worked through the above I leave you with a list of some of the better known conferences taking place this year. (Feel free to comment and add your own).
 
 [The 31st AAAI Conference on AI](http://www.aaai.org/Conferences/AAAI/2017/aaai17call.php)
