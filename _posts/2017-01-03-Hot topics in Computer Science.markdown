@@ -64,7 +64,9 @@ Yes this involves maths (as any reasonable and sensible field of Mathematics sho
 Now that we worked through the above I leave you with a list of some of the better known conferences taking place this year. (Feel free to comment and add your own).
 
 [The 31st AAAI Conference on AI](http://www.aaai.org/Conferences/AAAI/2017/aaai17call.php)
+
 [The 44th International Symposium on Computer Architecture](http://isca17.ece.utoronto.ca/doku.php?id=start)
+
 [International Conference on Robotics and Automation](http://www.icra2017.org/)
 
 [WWW Conference](http://www.www2017.com.au/)
