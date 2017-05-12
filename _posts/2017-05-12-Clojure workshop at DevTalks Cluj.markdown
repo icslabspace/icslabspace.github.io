@@ -6,7 +6,7 @@ category: workshop
 tags: clojure  
 author: icslab team
 images: 
-  - url: /images/posts/devtalks-cluj-2017
+  - url: /images/posts/devtalks-cluj-2017/clj.png
     alt: Clojure workshop at DevTalks Cluj
     title: clj.png
 ---
