@@ -23,11 +23,15 @@
                     <a class="item" href="{{ site.baseurl }}/blog">Home</a>
                    
 <!--                    add links to the other pages-->
-                    {% for my_page in site.pages %}
+         <!--           {% for my_page in site.pages %}
                     {% if my_page.title %}
                     <a class="item" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
                     {% endif %}
                     {% endfor %}
+             -->         
+                    <a class="item" href="{{ site.baseurl }}/about">About</a>  
+                    <a class="item" href="{{ site.baseurl }}/tags">Tags</a>  
+                      
                   </div>
                 </nav>
 		      </div>
