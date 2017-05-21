@@ -36,7 +36,7 @@ images:
 ### Speakers, active participants and atendees
 
 <div class="ui container">
-    <p>You got everything at this confernce. Main speakers on various stages, workshops, start-up stands and demos.
+    <p>You get everything at this confernce. Main speakers on various stages, workshops, start-up stands and demos.
     Networking was very well supported among all these categories so one would feel quite well integrated. In some words: very hight energy place. By the way you do need to forget you native language for the day (unless it's EN) - this is a very polycultural conference.
     </p>
     <div class="ui middle aligned grid">
