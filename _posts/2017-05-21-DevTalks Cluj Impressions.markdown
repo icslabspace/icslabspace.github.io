@@ -27,14 +27,19 @@ images:
     </p>
     <p>We also liked the registration system - any engineer would - as you get an id, type it into the registration interface (onsite) and then gets printed out on the spot. Cool stuff! One downside to that is that they still relied on people to announce you when your badge was printed.</p>
     
-    <div class="ui middle aligned grid">
+    <div class="ui images">
+        <img class="ui centered image" src="/images/posts/devtalks-cluj-2017-review/abnner.jpg">
+        <img class="ui centered image" src="/images/posts/devtalks-cluj-2017-review/mainarea.jpg">
+    </div>
+    
+    <!--<div class="ui middle aligned grid">
         <div class="twelve wide column">
             <img class="ui centered medium image" src="/images/posts/devtalks-cluj-2017-review/abnner.jpg">
         </div>
         <div class="twelve wide column">    
             <img class="ui centered medium image" src="/images/posts/devtalks-cluj-2017-review/mainarea.jpg">
         </div>
-    </div>
+    </div>-->
     
 </div>
 
@@ -44,14 +49,19 @@ images:
     <p>You get everything at this confernce. Main speakers on various stages, workshops, start-up stands and demos.
     Networking was very well supported among all these categories so one would feel quite well integrated. In some words: very hight energy place. By the way you do need to forget you native language for the day (unless it's EN) - this is a very polycultural conference.
     </p>
-    <div class="ui middle aligned grid">
+    
+    <div class="ui images">
+        <img class="ui centered image" src="/images/posts/devtalks-cluj-2017-review/cljb.jpg">
+        <img class="ui centered image" src="/images/posts/devtalks-cluj-2017-review/startups.jpg">
+    </div>
+    <!--<div class="ui middle aligned grid">
         <div class="twelve wide column">
             <img class="ui centered medium image" src="/images/posts/devtalks-cluj-2017-review/cljb.jpg">
         </div>
         <div class="twelve wide column">
             <img class="ui centered medium image" src="/images/posts/devtalks-cluj-2017-review/startups.jpg">
         </div> 
-    </div>  
+    </div>  -->
 </div>
 
 ### Tracks
@@ -59,7 +69,15 @@ images:
 <div class="ui container">
     <p>Although could not attend all of them - but we've heard it from the horses mouth - the traks are very well balanced so you don't get dull moments. And if you do just step into the main hall and get a conversation going with either one of the organizers or with some other passionate bloke/lass going passed you :) You'll definitely have some new CS/IT topic to talk about. Everyone seems very well informed and willing to participiate and engage.
     </p>
-    <div class="ui middle aligned grid">
+    <div class="ui images">
+    
+        <img class="ui centered image" src="/images/posts/devtalks-cluj-2017-review/devtalks.jpg">
+        <img class="ui centered image" src="/images/posts/devtalks-cluj-2017-review/cljw.jpg">
+        <img class="ui centered image" src="/images/posts/devtalks-cluj-2017-review/cljworkshop.jpg">
+        
+    </div>
+    
+    <!--<div class="ui middle aligned grid">
         <div class="twelve wide column">
             <img class="ui centered medium image" src="/images/posts/devtalks-cluj-2017-review/devtalks.jpg">
         </div>
@@ -69,7 +87,7 @@ images:
         <div class="twelve wide column">
             <img class="ui centered medium image" src="/images/posts/devtalks-cluj-2017-review/cljworkshop.jpg">
         </div> 
-    </div>  
+    </div> -->  
 </div>
 
 ### After party
@@ -87,5 +105,5 @@ images:
     </p>
 </div>
 
- 
+<p></p>
 <img class="ui centered medium image" src="/images/posts/devtalks-cluj-2017-review/dev-talks-black.png">
