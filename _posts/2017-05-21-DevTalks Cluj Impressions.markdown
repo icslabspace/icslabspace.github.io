@@ -29,13 +29,12 @@ images:
     <div class="ui middle aligned grid">
         <div class="two wide column">
             <div class="ui images">
-            <img src="/images/posts/devtalks-cluj-2017-review/abner.jpg">
+            <img src="/images/posts/devtalks-cluj-2017-review/abnner.jpg">
             <img src="/images/posts/devtalks-cluj-2017-review/mainarea.jpg">
             </div>
         </div> 
     </div>  
 </div>
-[!pic](/images/posts/posts/devtalks-cluj-2017-review/abner.jpg)
 
 ### Speakers, active participants and atendees
 
@@ -80,4 +79,5 @@ images:
     </p>
 </div>
 
-[!pic](/images/posts/devtalks-cluj-2017-review/dev-talks-black.png)
+ 
+<img src="/images/posts/devtalks-cluj-2017-review/dev-talks-black.png"
