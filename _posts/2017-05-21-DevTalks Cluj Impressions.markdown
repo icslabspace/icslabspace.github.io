@@ -26,10 +26,10 @@ images:
     <p>Flawless would be the word to describe it. This conference covers it all. You get patience, respect and lots of support from the organization team. The space was very inteligently chosen. You get multiple parallel tracks - as with any agile conference.
     </p>
     <p>We also liked the registration system - any engineer would - as you get an id, type it into the registration interface (onsite) and then gets printed out on the spot. Cool stuff! One downside to that is that they still relied on people to announce you when your badge was printed.</p>
-            <div class="ui images">
-            <img src="/images/posts/devtalks-cluj-2017-review/abnner.jpg">
-            <img src="/images/posts/devtalks-cluj-2017-review/mainarea.jpg">
-            </div>
+    <div class="ui images">
+        <img src="/images/posts/devtalks-cluj-2017-review/abnner.jpg">
+        <img src="/images/posts/devtalks-cluj-2017-review/mainarea.jpg">
+    </div>
     
 </div>
 
@@ -41,8 +41,8 @@ images:
     </p>
     <div class="ui middle aligned grid">
         <div class="two wide column">
-            <img class="ui left floated image" src="/images/posts/devtalks-cluj-2017-review/cljb.jpg">
-            <img class="ui right floated image" src="/images/posts/devtalks-cluj-2017-review/startups.jpg">
+            <img class="ui left image" src="/images/posts/devtalks-cluj-2017-review/cljb.jpg">
+            <img class="ui right image" src="/images/posts/devtalks-cluj-2017-review/startups.jpg">
         </div> 
     </div>  
 </div>
