@@ -28,12 +28,14 @@ images:
     <p>We also liked the registration system - any engineer would - as you get an id, type it into the registration interface (onsite) and then gets printed out on the spot. Cool stuff! One downside to that is that they still relied on people to announce you when your badge was printed.</p>
     <div class="ui middle aligned grid">
         <div class="two wide column">
-            <img class="ui left floated image" src="/images/posts/devtalks-cluj-2017-review/abner.jpg">
-            <img class="ui right floated image" src="/images/posts/devtalks-cluj-2017-review/mainarea.jpg">
+            <div class="ui images">
+            <img src="/images/posts/devtalks-cluj-2017-review/abner.jpg">
+            <img src="/images/posts/devtalks-cluj-2017-review/mainarea.jpg">
+            </div>
         </div> 
     </div>  
 </div>
-![pic](/images/posts/posts/devtalks-cluj-2017-review/abner.jpg)
+[!pic](/images/posts/posts/devtalks-cluj-2017-review/abner.jpg)
 
 ### Speakers, active participants and atendees
 
