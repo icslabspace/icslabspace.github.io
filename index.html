@@ -29,7 +29,7 @@
   <!-- Standard Meta -->
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"> 
   
   <link rel="icon" type="image/png" href="assets/images/tiny-logo-fav-6.png" />
 
@@ -186,17 +186,17 @@
     
         <!-- PARTNERS content -->    
         <h4 class="ui horizontal divider header">
-			WHERE WE CONTRIBUTE
+			WHERE WE CONTRIBUTE TO
 		</h4>
         
         <div class="ui middle aligned grid">
             <div class="eight wide column">
-                <a href="http://juxt.pro">
+                <a href="http://juxt.pro" target="_blank">
                     <img class="ui centered small image" src="/images/partners/juxt.png">
                 </a>
             </div>
             <div class="eight wide column">
-                <a href="http://intrinsicagility.com.au/">
+                <a href="http://intrinsicagility.com.au/" target="_blank">
                     <img class="ui centered small image" src="/images/partners/intrinic.jpg">
                 </a>
             </div>
@@ -246,7 +246,7 @@
 	                                <i class="large facebook icon"></i>
 								</button>
 								<button class="ui primary icon button"
-	                                    onclick="location.href='/intolambda/index.html';">
+	                                    onclick="window.open('/intolambda/index.html','_blank');">
 	                                <i class="large external icon"></i>
 								</button>
 							</div>
@@ -304,11 +304,11 @@
 							<div class="right floated author">
 								<!-- external links -->
 								<button class="ui facebook icon button disabled"
-	                                    onclick="location.href='https://www.facebook.com/MoneySpenk/';">
+	                                    onclick="window.open('https://www.facebook.com/MoneySpenk/','_blank');">
 	                                <i class="large facebook icon"></i>
 								</button>
 								<button class="ui primary android icon button"
-	                                    onclick="location.href='https://play.google.com/store/apps/details?id=eu.icslab.gherega.alex.codo';">
+	                                    onclick="window.open('https://play.google.com/store/apps/details?id=eu.icslab.gherega.alex.codo','_blank');">
 	                                <i class="large android icon"></i>
 								</button>
 							</div>
@@ -354,11 +354,11 @@
 							<div class="right floated author">
 								<!-- external links -->
 								<button class="ui facebook icon button"
-	                                    onclick="location.href='https://www.facebook.com/MoneySpenk/';">
+	                                    onclick="window.open('https://www.facebook.com/MoneySpenk/','_blank');">
 	                                <i class="large facebook icon"></i>
 								</button>
 								<button class="ui primary android icon button"
-	                                    onclick="location.href='https://play.google.com/store/apps/details?id=com.harbinger.expressive.espendingtracker';">
+	                                    onclick="window.open('https://play.google.com/store/apps/details?id=com.harbinger.expressive.espendingtracker','_blank');">
 	                                <i class="large android icon"></i>
 								</button>
 							</div>
@@ -407,11 +407,11 @@
 							<div class="right floated author">
 								<!-- external links -->
 								<button class="ui disabled facebook icon button"
-	                                    onclick="location.href='https://www.facebook.com/MoneySpenk/';">
+	                                    onclick="window.open('https://www.facebook.com/MoneySpenk/','_blank');">
 	                                <i class="large facebook icon"></i>
 								</button>
 								<button class="ui disabled primary android icon button"
-	                                    onclick="location.href='https://play.google.com/store/apps/details?id=com.harbinger.expressive.espendingtracker';">
+	                                    onclick="window.open('https://play.google.com/store/apps/details?id=com.harbinger.expressive.espendingtracker','_blank');">
 	                                <i class="large android icon"></i>
 								</button>
 							</div>
@@ -512,7 +512,7 @@
 		<!-- team contacts -->
 		<div>
 			<button class="ui email tiny icon button"
-					title="mailto:crew@icslab.eu"
+					title="mailto:icslabcrew@gmail.com"
 					onclick="location.href='mailto:icslabcrew@gmail.com';">
 				<i class="mail icon"></i>
 				Email
@@ -522,6 +522,12 @@
 					onclick="location.href='skype:georgi_mania?call';">
 				<i class="skype icon"></i>
 				Skype
+			</button>
+            <button class="ui facebook tiny icon button"
+					title="Facebook page"
+					onclick="location.href='http://www.facebook.com/icslab.eu';">
+				<i class="facebook icon"></i>
+				Facebook
 			</button>
 		   <button class="ui phone tiny icon button"
 					title="Call +40746315293"
@@ -556,7 +562,7 @@
 				</button>
 -->
 							
-				<button class="ui inverted teal button"
+				<button class="ui inverted purple button"
 									onclick="location.href='blog';"
                                      >
 					<img class="ui tiny image" src="assets/images/blogcast.png">
@@ -620,7 +626,7 @@
                 <img class="ui image" src="images/technologies/python.png">
                 <img class="ui image" src="images/technologies/java.png">
                 <img class="ui image" src="images/technologies/android.png">
-                <img class="ui image" src="images/technologies/js.png">
+                <!--<img class="ui image" src="images/technologies/js.png">-->
                 <img class="ui image" src="images/technologies/css.png">
             </div>
           </div>
@@ -635,31 +641,77 @@
 			<div class="ui inverted divided equal height grid">
 			<!-- about -->
 			<div class="three wide column">
-			  <h4 class="ui inverted header">About</h4>
+			  <h4 class="ui inverted header">Sitemap</h4>
 			  <div class="ui inverted link list">
 				<a href="#ourwork" class="item">Our work</a>
 				<a href="#ourteam" class="item">Our team</a>
-				<a href="hireus.html" class="item">Hire us!</a>
+                <a href="/blog/index.html" class="item">Our blog</a>
+				<!-- <a href="hireus.html" class="item">Hire us!</a> -->
 			  </div>
 			</div>
 			
 			<!-- contacts -->
-			<div class="three wide column">
+			<div class="five wide column">
 			  <h4 class="ui inverted header">Contact us</h4>
-			  <div class="ui inverted link list">
-				<a href="mailto:icslabcrew@gmail.com" class="item">Email</a>
-				<a href="skype:georgi_mania?call" class="item">Skype</a>
-				<a href="tel:+40746315293" class="item">Phone</a>
-			  </div>
+			  <div class="ui inverted link list"> <!-- link list -->
+               
+                <div>
+                    <span>
+                        <i class="mail icon"></i>
+                        <a class="ui item" 
+                            href="mailto:icslabcrew@gmail.com"
+                            target="_blank">icslabcrew@gmail.com</a>
+                    </span>
+                </div>
+        
+                <div>
+                    <span>
+                        <i class="facebook icon"></i>
+                        <a class="ui item"
+                            href="http://www.facebook.com/icslab.eu"
+                            target="_blank">/icslab.eu</a>
+                    </span>
+                </div>
+                  
+                 <div>
+                    <span>
+                        <i class="skype icon"></i>
+                        <a class="ui item"
+                            href="skype:georgi_mania?call"
+                            target="_blank">icslab crew</a>
+                    </span>
+                </div>
+                  
+                <div>
+                    <span>
+                        <i class="phone icon"></i>
+                        <a class="ui item"
+                            href="tel:+40746315293"
+                            target="_blank">+40746315293</a>
+                    </span>
+                </div>
+                  
+              </div>
 			</div>
 			
 			<!--message -->
-			<div class="seven wide column">
+			<div class="five wide column">
 				<!-- <h4 class="ui inverted header">Footer Header</h4>-->
                 <p>Independent Computer Scientists' Laboratory</p>
     		</div>
             </div>
 		  </div>
+        
+        <div class="ui grid container">
+            <div class="thirteen wide centered column ">
+                <div class="ui inverted link list">
+                <span>
+                    <img src="images/handshake.png" width="20px" height="auto">
+                    <a class="item" href="/hireus.html">Hire us!</a>
+                </span>
+                </div>
+            </div>
+        </div>
 		
 		<!-- copyright -->
 		<div class="ui container">
