@@ -3,7 +3,9 @@ layout: post
 title: Clojure workshop at DevTalks Cluj
 date:   2017-05-12 10:45:26 +0300
 category: workshop
-tags: clojure  
+tags: 
+- clojure
+- knowledge sharing
 author: icslab team
 images: 
   - url: /images/posts/devtalks-cluj-2017/clj.jpg
