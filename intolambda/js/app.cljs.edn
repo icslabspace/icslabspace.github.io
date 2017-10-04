@@ -1,1 +1,3 @@
-{:require [intolambda.app adzerk.boot-cljs-repl adzerk.boot-reload], :init-fns [intolambda.app/init], :compiler-options {:asset-path "js/app.out"}}
+{:require  [intolambda.app]
+ :init-fns [intolambda.app/init]
+ :compiler-options {:asset-path "js/app.out"}}

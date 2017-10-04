@@ -1,37 +1,37 @@
-// Compiled by ClojureScript 1.7.228 {}
+// Compiled by ClojureScript 1.7.228 {:static-fns true, :optimize-constants true}
 goog.provide('intolambda.state');
 goog.require('cljs.core');
 goog.require('reagent.core');
-intolambda.state.init_state = new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"menu-item-selected","menu-item-selected",1061049935),"Home",new cljs.core.Keyword(null,"contrib-selection","contrib-selection",605088144),cljs.core.PersistentArrayMap.EMPTY,new cljs.core.Keyword(null,"initial-challenge","initial-challenge",129309182),""], null);
-intolambda.state.app_state = reagent.core.atom.call(null,intolambda.state.init_state);
+intolambda.state.init_state = new cljs.core.PersistentArrayMap(null, 3, [cljs.core.cst$kw$menu_DASH_item_DASH_selected,"Home",cljs.core.cst$kw$contrib_DASH_selection,cljs.core.PersistentArrayMap.EMPTY,cljs.core.cst$kw$initial_DASH_challenge,""], null);
+intolambda.state.app_state = reagent.core.atom.cljs$core$IFn$_invoke$arity$1(intolambda.state.init_state);
 intolambda.state.get_app_state = (function intolambda$state$get_app_state(){
 return intolambda.state.app_state;
 });
 intolambda.state.update_app_state = (function intolambda$state$update_app_state(keys,value){
-if(((1) === cljs.core.count.call(null,keys))){
-return cljs.core.swap_BANG_.call(null,intolambda.state.app_state,cljs.core.assoc,cljs.core.first.call(null,keys),value);
+if(((1) === cljs.core.count(keys))){
+return cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$4(intolambda.state.app_state,cljs.core.assoc,cljs.core.first(keys),value);
 } else {
-return cljs.core.swap_BANG_.call(null,intolambda.state.app_state,cljs.core.assoc_in,keys,value);
+return cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$4(intolambda.state.app_state,cljs.core.assoc_in,keys,value);
 }
 });
 intolambda.state.read_app_state = (function intolambda$state$read_app_state(var_args){
-var args10458 = [];
-var len__7513__auto___10461 = arguments.length;
-var i__7514__auto___10462 = (0);
+var args13711 = [];
+var len__7513__auto___13715 = arguments.length;
+var i__7514__auto___13716 = (0);
 while(true){
-if((i__7514__auto___10462 < len__7513__auto___10461)){
-args10458.push((arguments[i__7514__auto___10462]));
+if((i__7514__auto___13716 < len__7513__auto___13715)){
+args13711.push((arguments[i__7514__auto___13716]));
 
-var G__10463 = (i__7514__auto___10462 + (1));
-i__7514__auto___10462 = G__10463;
+var G__13717 = (i__7514__auto___13716 + (1));
+i__7514__auto___13716 = G__13717;
 continue;
 } else {
 }
 break;
 }
 
-var G__10460 = args10458.length;
-switch (G__10460) {
+var G__13713 = args13711.length;
+switch (G__13713) {
 case 0:
 return intolambda.state.read_app_state.cljs$core$IFn$_invoke$arity$0();
 
@@ -41,7 +41,7 @@ return intolambda.state.read_app_state.cljs$core$IFn$_invoke$arity$1((arguments[
 
 break;
 default:
-throw (new Error([cljs.core.str("Invalid arity: "),cljs.core.str(args10458.length)].join('')));
+throw (new Error([cljs.core.str("Invalid arity: "),cljs.core.str(args13711.length)].join('')));
 
 }
 });
@@ -51,9 +51,8 @@ return intolambda.state.app_state;
 });
 
 intolambda.state.read_app_state.cljs$core$IFn$_invoke$arity$1 = (function (key){
-return key.call(null,cljs.core.deref.call(null,intolambda.state.app_state));
+var G__13714 = (cljs.core.deref.cljs$core$IFn$_invoke$arity$1 ? cljs.core.deref.cljs$core$IFn$_invoke$arity$1(intolambda.state.app_state) : cljs.core.deref.call(null,intolambda.state.app_state));
+return (key.cljs$core$IFn$_invoke$arity$1 ? key.cljs$core$IFn$_invoke$arity$1(G__13714) : key.call(null,G__13714));
 });
 
 intolambda.state.read_app_state.cljs$lang$maxFixedArity = 1;
-
-//# sourceMappingURL=state.js.map
