@@ -25,7 +25,7 @@ images:
 
 #### Speaker
 
-<p>As he describes himself, <a href="https://github.com/alex-gherega">avr.PhD. Alex Gherega</a> is a straight forward down to earth curious & futurist. Alex is a Computer Scientist and an advocate for FP, Clojure and true engineering solutions. He's principles saw light in the <a href="http://www.icslab.eu">icslab.eu</a> brand and projects, and he's mantra is "authenticity". </p>
+<p>As he describes himself, <a href="https://github.com/alex-gherega">avr.PhD. Alex Gherega</a> is a straight forward down to earth curious & futurist. Alex is a Computer Scientist and an advocate for FP, Clojure and true engineering solutions. His principles saw light in the <a href="http://www.icslab.eu">icslab.eu</a> brand and projects, and his mantra is "authenticity". </p>
 
 #### Topics
 
