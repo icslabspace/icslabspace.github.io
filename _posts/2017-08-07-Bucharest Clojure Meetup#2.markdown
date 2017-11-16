@@ -26,13 +26,13 @@ images:
 #### Topics 
 
 <div class="ui container">
-  <p>The first <a href="/meetup/ClojureScript%20in%20action.pdf">talk</a> was focused on ClojureScript. We looked into why choose it over JavaScript, which are its main benefits, how to setup a friendly working environment and which are the most common tools. In the end, we created a new leiningen based ClojureScript project, added some HTML tags, changed the CSS and tested some functions and macros from the REPL. </p>
+  <p>In the first <a href="/meetup/ClojureScript%20in%20action.pdf">talk</a> of the evenining, Georgiana kept us focused on ClojureScript. We looked into why choose it over JavaScript, which are its main benefits, how to setup a friendly working environment and which are the most common tools. In the end, we created a new leiningen based ClojureScript project, added some HTML tags, changed the CSS and tested some functions and macros from the REPL. </p>
   
   <p>The second talk of the evening was about <a href="https://github.com/yetibot">Yetibot</a>, a feature-rich chatops tool written in Clojure. Victor showed us the benefits of using Yetibot as a part of a big development team at <a href="https://code4.ro/">Code 4 Romania</a>, an organization where he has been volunteering for more than 1 year.</p>
   
   <p>During his <a href="https://github.com/cvic/awesome-chatops-with-yetibot-slides/blob/master/index.html">presentation</a> Victor tested Yetibot's integration with Slack through several queries. In the end, we also had a peek at the Clojure code behind it. </p>
   
-  <img src="/images/posts/meetup/meetup2.jpeg">
+  <img src="/images/posts/meetup/2/meetup2.jpeg">
 </div>
 
 
